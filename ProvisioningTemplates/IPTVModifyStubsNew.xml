@@ -1,0 +1,5 @@
+<updateEntitlementsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://iptvexchange.uk.intranet/IPTVExchangeInterface">
+    <updateEntitlementsReturn>
+        <ns1:success xmlns:ns1="http://messages.iptvexchange.uk.intranet">true</ns1:success>
+    </updateEntitlementsReturn>
+</updateEntitlementsResponse> 

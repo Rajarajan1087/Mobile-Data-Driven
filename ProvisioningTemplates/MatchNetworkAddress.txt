@@ -1,0 +1,29 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.NPT.Public.Request.Common.Provisioning.MatchNetworkAddress.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:MatchNetworkAddressRequest xmlns:ns0="http://xmlns.talktalk.co.uk/Common/Provisioning/MatchNetworkAddress">
+    <ns0:CommonHeader>
+        <ns1:id xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">INT941</ns1:id>
+        <ns1:paradigm xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">REQUEST</ns1:paradigm>
+        <ns1:version xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">1.0.0</ns1:version>
+        <ns1:from xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader" ns1:componentVersion="1.0.0"/>
+        <ns1:to xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader" ns1:destination="CPW.GBR.NPT.Public.Request.Common.Provisioning.MatchNetworkAddress.1"/>
+        <ns1:tracking xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+            <ns1:item ns1:service="CRM.Routing.NetworkMatchAddress" ns1:engine="CRMRoutingServices-Process_Archive" ns1:status="S" ns1:timestamp="2016-04-28T13:15:07.179+01:00" ns1:sequenceNo="1"/>
+        </ns1:tracking>
+    </ns0:CommonHeader>
+    <ns0:sourceChannelId>5</ns0:sourceChannelId>
+    <ns0:AddressDetails>
+	M_UPRN
+	M_buildingName
+	M_buildingNumber
+	M_thoroughfareName
+	M_postcode
+    </ns0:AddressDetails>
+</ns0:MatchNetworkAddressRequest>

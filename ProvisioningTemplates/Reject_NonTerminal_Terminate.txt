@@ -1,0 +1,20 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://${emm_hostname}:${emm_port}
+CPW.GBR.${env}.Private.Request.CRM.Routing.ProcessOrderEvent.1
+86400000
+${emm_username}
+${emm_password}
+1.0
+EAI_OPS
+
+<?xml version="1.0" encoding="UTF-8"?><root xmlns="http://www.cpw.co.uk/CPW/CRM/Order/updateorder"><payload xmlns="">
+<userName>${USERNAME}</userName>
+<request>
+	<customerId>${CustomerNumber}</customerId>
+	<cli>${CLI}</cli>
+	<orderID>${orderID}</orderID>
+	<orderEvent>Terminate</orderEvent>
+	<isNewCustomer>false</isNewCustomer>
+	<customerOrder/>
+</request>
+</payload></root>

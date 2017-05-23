@@ -1,0 +1,520 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Entry.SubmitGatewayOrder.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:SubmitOrderRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Order/Management/SubmitOrder">
+    <ns0:CommonHeader>
+        <ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+            <ns1:id>INT178</ns1:id>
+            <ns1:paradigm>REQUEST</ns1:paradigm>
+            <ns1:version>1</ns1:version>
+            <ns1:from ns1:componentVersion="1"/>
+            <ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Order.Management.SubmitOrder.1"/>
+        </ns1:commonHeader>
+    </ns0:CommonHeader>
+    <ns1:CustomerOrder xmlns:ns1="http://xmlns.cpw.co.uk/CPW/Order/Management/CustomerOrder">
+        <ns2:orderType xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">13</ns2:orderType>
+        <ns2:orderPriority xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder"/>
+        <ns2:orderReasonCode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder"/>
+        <ns2:massMigrationFlag xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">0</ns2:massMigrationFlag>
+        <ns2:branchId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">1231</ns2:branchId>
+        <ns2:OrderLines xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:OrderLine>
+                <ns2:orderlineId>1</ns2:orderlineId>
+                <ns2:productId>287</ns2:productId>
+                <ns2:productType>0</ns2:productType>
+                <ns2:productName>SimplyBroadband with Fibre</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId/>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes>
+                    <ns2:Attribute>
+                        <ns2:name>isECR</ns2:name>
+                        <ns2:value>Y</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>estimatedUpstreamSpeed</ns2:name>
+                        <ns2:value>20000</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>estimatedUpstreamSpeed20</ns2:name>
+                        <ns2:value>13000</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>estimatedDownstreamSpeed80</ns2:name>
+                        <ns2:value>60000</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>estimatedDownstreamSpeed20</ns2:name>
+                        <ns2:value>52200</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>estimatedDownstreamSpeed10</ns2:name>
+                        <ns2:value>-1</ns2:value>
+                    </ns2:Attribute>
+                </ns2:Attributes>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>2</ns2:orderlineId>
+                <ns2:productId>19</ns2:productId>
+                <ns2:productType>1</ns2:productType>
+                <ns2:productName>Broadband</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>1</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes>
+                    <ns2:Attribute>
+                        <ns2:name>fibreInstallationMethodId</ns2:name>
+                        <ns2:value>Self Install</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>alkQualifier</ns2:name>
+                        <ns2:value>1</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>alkReference</ns2:name>
+                        <ns2:value>A10024592412</ns2:value>
+                    </ns2:Attribute>
+                </ns2:Attributes>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10019</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>3</ns2:orderlineId>
+                <ns2:productId>92</ns2:productId>
+                <ns2:productType>10</ns2:productType>
+                <ns2:productName>NGA: Broadband</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20401</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>4</ns2:orderlineId>
+                <ns2:productId>11</ns2:productId>
+                <ns2:productType>4</ns2:productType>
+                <ns2:productName>Broadband Line (LLU)</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>5</ns2:orderlineId>
+                <ns2:productId>9486</ns2:productId>
+                <ns2:productType>8</ns2:productType>
+                <ns2:productName>Fibre Activation - Sim Provide</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes>
+                    <ns2:Attribute>
+                        <ns2:name>appointmentRetreivalDate</ns2:name>
+                        <ns2:value>2016-02-11T07:05:21+00:00</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>appointmentFirstRequestedDate</ns2:name>
+                        <ns2:value>2016-02-18</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>appointmentFirstAvailableDate</ns2:name>
+                        <ns2:value>2016-02-22</ns2:value>
+                    </ns2:Attribute>
+                </ns2:Attributes>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20656</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>6</ns2:orderlineId>
+                <ns2:productId>9664</ns2:productId>
+                <ns2:productType>8</ns2:productType>
+                <ns2:productName>Router Delivery Charge</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20713</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>7</ns2:orderlineId>
+                <ns2:productId>9465</ns2:productId>
+                <ns2:productType>7</ns2:productType>
+                <ns2:productName>£5 Fibre Large Discount for 12 months - Plus</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20515</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>8</ns2:orderlineId>
+                <ns2:productId>9226</ns2:productId>
+                <ns2:productType>2</ns2:productType>
+                <ns2:productName>Fibre Large - up to 76Mb &amp; Unlimited</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20404</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>9</ns2:orderlineId>
+                <ns2:productId>9669</ns2:productId>
+                <ns2:productType>8</ns2:productType>
+                <ns2:productName>Super Router</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>2</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20719</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>10</ns2:orderlineId>
+                <ns2:productId>20</ns2:productId>
+                <ns2:productType>1</ns2:productType>
+                <ns2:productName>Line Rental</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>1</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes>
+                    <ns2:Attribute>
+                        <ns2:name>alkQualifier</ns2:name>
+                        <ns2:value>1</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>alkReference</ns2:name>
+                        <ns2:value>A10024592412</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>cssDistrictCode</ns2:name>
+                        <ns2:value>SS</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>networkResultsReference</ns2:name>
+                        <ns2:value>1000238773</ns2:value>
+                    </ns2:Attribute>
+                    <ns2:Attribute>
+                        <ns2:name>oldCli</ns2:name>
+                        <ns2:value>NL3390</ns2:value>
+                    </ns2:Attribute>
+                </ns2:Attributes>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10020</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>11</ns2:orderlineId>
+                <ns2:productId>82</ns2:productId>
+                <ns2:productType>10</ns2:productType>
+                <ns2:productName>LLU: Line Rental</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>10</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10082</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>12</ns2:orderlineId>
+                <ns2:productId>10</ns2:productId>
+                <ns2:productType>4</ns2:productType>
+                <ns2:productName>Line Rental (LLU)</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>10</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>13</ns2:orderlineId>
+                <ns2:productId>144</ns2:productId>
+                <ns2:productType>2</ns2:productType>
+                <ns2:productName>ExDirectory: XDNC</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>10</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Directory>
+                    <ns2:locationOption>1</ns2:locationOption>
+                    <ns2:initials>Q</ns2:initials>
+                    <ns2:directoryTitle>0</ns2:directoryTitle>
+                    <ns2:directorySurname>QWE</ns2:directorySurname>
+                </ns2:Directory>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10144</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>14</ns2:orderlineId>
+                <ns2:productId>21</ns2:productId>
+                <ns2:productType>1</ns2:productType>
+                <ns2:productName>Voice</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>1</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10021</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>15</ns2:orderlineId>
+                <ns2:productId>86</ns2:productId>
+                <ns2:productType>10</ns2:productType>
+                <ns2:productName>LLU: Voice</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>14</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10086</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>16</ns2:orderlineId>
+                <ns2:productId>323</ns2:productId>
+                <ns2:productType>4</ns2:productType>
+                <ns2:productName>SimplyBroadband</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>14</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>17</ns2:orderlineId>
+                <ns2:productId>424</ns2:productId>
+                <ns2:productType>7</ns2:productType>
+                <ns2:productName>CC Calling Circle</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>14</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>10424</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>18</ns2:orderlineId>
+                <ns2:productId>9836</ns2:productId>
+                <ns2:productType>7</ns2:productType>
+                <ns2:productName>Free Call Plan for 18 Months</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>14</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:propositionId>20801</ns2:propositionId>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+            <ns2:OrderLine>
+                <ns2:orderlineId>19</ns2:orderlineId>
+                <ns2:productId>1</ns2:productId>
+                <ns2:productType>9</ns2:productType>
+                <ns2:productName>Contract</ns2:productName>
+                <ns2:accessMethod/>
+                <ns2:action>0</ns2:action>
+                <ns2:parentOrderLineId>1</ns2:parentOrderLineId>
+                <ns2:assetInstanceId/>
+                <ns2:Contract>
+                    <ns2:Contract>
+                        <ns3:contractTerm xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Contract">18</ns3:contractTerm>
+                        <ns3:terminationRule xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Contract">2</ns3:terminationRule>
+                    </ns2:Contract>
+                </ns2:Contract>
+                <ns2:Attributes/>
+                <ns2:relatedOrderId/>
+                <ns2:relatedOrderLineId/>
+                <ns2:activityId>26</ns2:activityId>
+            </ns2:OrderLine>
+        </ns2:OrderLines>
+        <ns2:Resources xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:resourceId>NL3390</ns2:resourceId>
+            <ns2:type>0</ns2:type>
+        </ns2:Resources>
+        <ns2:Account xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:paymentMethodId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Account">0</ns3:paymentMethodId>
+            <ns3:contact xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Account">
+                <ns4:Address xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/Contact">
+                    <ns5:SAF xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+                        <ns5:buildingName>712</ns5:buildingName>
+                        <ns5:thoroughfareName>The Drive</ns5:thoroughfareName>
+                        <ns5:postTown>London</ns5:postTown>
+                        <ns5:postcode>W11 2AJ</ns5:postcode>
+                        <ns5:isoCountryCode>0</ns5:isoCountryCode>
+                        <ns5:addressDataSourceId>1</ns5:addressDataSourceId>
+                        <ns5:addressDataMatchTypeId>0</ns5:addressDataMatchTypeId>
+                    </ns5:SAF>
+                </ns4:Address>
+                <ns4:EAddress xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/Contact">
+                    <ns5:eaddressDetail xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/EAddress">qwerty.qwe@autocentral.com</ns5:eaddressDetail>
+                </ns4:EAddress>
+            </ns3:contact>
+            <ns3:directDebitDetail xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Account">
+                <ns4:bankAccount xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/DirectDebitDetail">
+                    <ns5:bankAccountName xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/BankAccount">QWERTY QWE</ns5:bankAccountName>
+                    <ns5:bankAccountNumber xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/BankAccount">31020293</ns5:bankAccountNumber>
+                    <ns5:bankCode xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/BankAccount">404720</ns5:bankCode>
+                    <ns5:bankName xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/BankAccount">HSBC BANK PLC</ns5:bankName>
+                </ns4:bankAccount>
+            </ns3:directDebitDetail>
+            <ns3:invoiceHeader xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Account">
+                <ns4:InvoiceLine xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/InvoiceHeader">
+                    <ns5:invoiceLineDocumentNo xmlns:ns5="http://xmlns.cpw.co.uk/CPW/CDM/InvoiceLine">1</ns5:invoiceLineDocumentNo>
+                </ns4:InvoiceLine>
+                <ns4:invoiceItemisationId xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/InvoiceHeader">1</ns4:invoiceItemisationId>
+                <ns4:invoiceLayoutOptionTypeId xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/InvoiceHeader">0</ns4:invoiceLayoutOptionTypeId>
+                <ns4:invoiceMediaTypeId xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/InvoiceHeader">1</ns4:invoiceMediaTypeId>
+            </ns3:invoiceHeader>
+        </ns2:Account>
+        <ns2:Customer xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:customerId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Customer">1-000003-333937-0</ns3:customerId>
+            <ns3:customerPreferredFirstName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Customer">QWERTY</ns3:customerPreferredFirstName>
+            <ns3:customerPreferredLastName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Customer">QWE</ns3:customerPreferredLastName>
+            <ns3:customerPreferredTitleId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Customer">0</ns3:customerPreferredTitleId>
+            <ns3:onlineUserName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Customer">qwerty.qwe@autocentral.com</ns3:onlineUserName>
+        </ns2:Customer>
+        <ns2:Person xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:firstName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Person">QWERTY</ns3:firstName>
+            <ns3:lastName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Person">QWE</ns3:lastName>
+            <ns3:dateOfBirth xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Person">1971-02-20T00:00:00</ns3:dateOfBirth>
+            <ns3:genderId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Person">3</ns3:genderId>
+            <ns3:titleId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Person">0</ns3:titleId>
+        </ns2:Person>
+        <ns2:InstallationAddress xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:SAF xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+                <ns3:buildingName>712</ns3:buildingName>
+                <ns3:thoroughfareName>The Drive</ns3:thoroughfareName>
+                <ns3:postTown>London</ns3:postTown>
+                <ns3:postcode>W11 2AJ</ns3:postcode>
+                <ns3:isoCountryCode>0</ns3:isoCountryCode>
+                <ns3:addressDataSourceId>1</ns3:addressDataSourceId>
+                <ns3:addressDataMatchTypeId>0</ns3:addressDataMatchTypeId>
+            </ns3:SAF>
+        </ns2:InstallationAddress>
+        <ns2:AssetCli xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:cli xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/AssetCli">NL3390</ns3:cli>
+            <ns3:spId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/AssetCli">0</ns3:spId>
+        </ns2:AssetCli>
+        <ns2:ExternalReferences xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:ExternalReference>
+                <ns2:externalReferenceId>N3390</ns2:externalReferenceId>
+                <ns2:system>Supplier Order ID</ns2:system>
+            </ns2:ExternalReference>
+        </ns2:ExternalReferences>
+        <ns2:CustomerAddress xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns3:SAF xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+                <ns3:buildingName>712</ns3:buildingName>
+                <ns3:thoroughfareName>The Drive</ns3:thoroughfareName>
+                <ns3:postTown>London</ns3:postTown>
+                <ns3:postcode>W11 2AJ</ns3:postcode>
+                <ns3:isoCountryCode>0</ns3:isoCountryCode>
+                <ns3:addressDataSourceId>1</ns3:addressDataSourceId>
+                <ns3:addressDataMatchTypeId>0</ns3:addressDataMatchTypeId>
+            </ns3:SAF>
+        </ns2:CustomerAddress>
+        <ns2:TelephoneDetails xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:TelephoneDetails>
+                <ns3:telephoneNumber xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/TeleNumber">07812457896</ns3:telephoneNumber>
+                <ns3:telephoneTypeId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/TeleNumber">3</ns3:telephoneTypeId>
+            </ns2:TelephoneDetails>
+        </ns2:TelephoneDetails>
+        <ns2:orderPlacementDate xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">2016-02-11T07:11:27Z</ns2:orderPlacementDate>
+        <ns2:OrderContactDetails xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:contact5>
+                <ns3:address xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Contact">
+                    <ns4:SAF xmlns:ns4="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+                        <ns4:buildingName>712</ns4:buildingName>
+                        <ns4:thoroughfareName>The Drive</ns4:thoroughfareName>
+                        <ns4:postTown>London</ns4:postTown>
+                        <ns4:postcode>W11 2AJ</ns4:postcode>
+                        <ns4:isoCountryCode>0</ns4:isoCountryCode>
+                        <ns4:addressDataSourceId>1</ns4:addressDataSourceId>
+                        <ns4:addressDataMatchTypeId>0</ns4:addressDataMatchTypeId>
+                    </ns4:SAF>
+                </ns3:address>
+            </ns2:contact5>
+        </ns2:OrderContactDetails>
+        <ns2:activityId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">26</ns2:activityId>
+        <ns2:brandId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">0</ns2:brandId>
+        <ns2:exchangeCode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">LCROC</ns2:exchangeCode>
+        <ns2:customerAndAccountDetailsChecked xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">false</ns2:customerAndAccountDetailsChecked>
+        <ns2:Appointments xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+            <ns2:Appointment>
+                <ns3:appointmentStatus xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">1</ns3:appointmentStatus>
+                <ns3:appointmentId xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">70026283</ns3:appointmentId>
+                <ns3:appointmentDate xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">2016-03-04T00:00:00Z</ns3:appointmentDate>
+                <ns3:appointmentSlotStartTime xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">08:00:00</ns3:appointmentSlotStartTime>
+                <ns3:appointmentSlotEndTime xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">13:00:00</ns3:appointmentSlotEndTime>
+                <ns3:contactName xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">QWERTY QWE</ns3:contactName>
+                <ns3:contactTelephoneNumber xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">07812457896</ns3:contactTelephoneNumber>
+                <ns3:contactEmailAddress xmlns:ns3="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">qwerty.qwe@autocentral.com</ns3:contactEmailAddress>
+                <ns2:relatedOrderLineId>5</ns2:relatedOrderLineId>
+            </ns2:Appointment>
+        </ns2:Appointments>
+        <ns2:agentId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder"/>
+        <ns2:linkedOrderReference xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder"/>
+        <ns2:OrderProcessingDirective xmlns:ns0="www.tibco.com/be/ontology/BusinessRules/Order/PrivateRules/TransformGatewayOrder/Framework/Events/TransformSGOOrderReq" xmlns:ns1="http://xmlns.cpw.co.uk/CPW/Order/Entry/SubmitGatewayOrder" xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder"/>
+    </ns1:CustomerOrder>
+</ns0:SubmitOrderRequest>

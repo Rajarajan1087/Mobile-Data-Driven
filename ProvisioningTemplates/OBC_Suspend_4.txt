@@ -1,0 +1,62 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS  
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>95</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID</CommandID>
+	<CommandTypeID>54</CommandTypeID>
+	<Properties>
+		<Name>Error</Name>
+		<Value>OSPG1041</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_cmdInstID</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>CorrelationID</Name>
+		<Value>d4d133b8-e6a6-4ab4-b3bb-2060036b0734\88495759</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerAccountReference</Name>
+		<Value>M_ACCOUNT</Value>
+	</Properties>
+	<Properties>
+		<Name>Country</Name>
+		<Value>UK</Value>
+	</Properties>
+	<Properties>
+		<Name>SuspendBarType</Name>
+		<Value>0</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNRef</Value>
+	</Properties>
+	<Properties>
+		<Name>SuspendOperation</Name>
+		<Value>Full</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>1</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>569</Value>
+	</Properties>
+</Command>

@@ -1,0 +1,26 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.NPT.Public.Request.Common.Provisioning.CheckTargetPremises.2
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<ns0:CheckTargetPremisesRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Common/Provisioning/CheckTargetPremises">
+    <ns0:CommonHeader>
+        <ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+            <ns1:id>INT506</ns1:id>
+            <ns1:paradigm>REQUEST</ns1:paradigm>
+            <ns1:version>1.0.0</ns1:version>
+            <ns1:from ns1:componentVersion="1.0.0"/>
+            <ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Common.Provisioning.CheckTargetPremises.2"/>
+        </ns1:commonHeader>
+    </ns0:CommonHeader>
+    <ns0:activityId>25</ns0:activityId>
+    <ns0:brandId>0</ns0:brandId>
+    <ns0:alkQualifier>1</ns0:alkQualifier>
+    <ns0:alkReference>A00030177127</ns0:alkReference>
+    <ns0:cssDistrictCode>MR</ns0:cssDistrictCode>
+    <ns0:postcode>M5 3JP</ns0:postcode>
+    <ns0:isRejectionMgt>true</ns0:isRejectionMgt>
+</ns0:CheckTargetPremisesRequest>

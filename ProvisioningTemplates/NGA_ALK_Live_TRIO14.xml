@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:GetNGAAvailabilityResponse xmlns:ns0 = "http://webservices.opalonline.co.uk/NGAAvailabilityCheckerWS">
+	<ns0:GetNGAAvailabilityResult>
+		<ns0:Status>
+			<ns0:HasErrors>false</ns0:HasErrors>
+		</ns0:Status>
+		<ns0:ResponseDetails>
+			<ns0:NGAAvailabilityForGoldAddressKey>
+				<ns0:GoldAddressKey>replaceMe</ns0:GoldAddressKey>
+				<ns0:FTTCAvailability>
+					<ns0:FTTCAvailableSI>Yes</ns0:FTTCAvailableSI>
+					<ns0:FTTCAvailableMI>Yes</ns0:FTTCAvailableMI>
+					<ns0:RangeATopDownstreamDataBandwidth>80</ns0:RangeATopDownstreamDataBandwidth>
+					<ns0:RangeABottomDownstreamDataBandwidth>40</ns0:RangeABottomDownstreamDataBandwidth>
+					<ns0:RangeATopUpstreamDataBandwidth>20</ns0:RangeATopUpstreamDataBandwidth>
+					<ns0:RangeABottomUpstreamDataBandwidth>30</ns0:RangeABottomUpstreamDataBandwidth>
+					<ns0:RangeBTopDownstreamDataBandwidth>80</ns0:RangeBTopDownstreamDataBandwidth>
+             			       <ns0:RangeBBottomDownstreamDataBandwidth>20</ns0:RangeBBottomDownstreamDataBandwidth>
+            			       <ns0:RangeBTopUpstreamDataBandwidth>20</ns0:RangeBTopUpstreamDataBandwidth>
+                                   <ns0:RangeBBottomUpstreamDataBandwidth>19</ns0:RangeBBottomUpstreamDataBandwidth>
+					<ns0:BandwidthMeasure>Actual</ns0:BandwidthMeasure>
+					<ns0:ExchangeDetails>
+						<ns0:CSSExchangeDistrictCode>LC</ns0:CSSExchangeDistrictCode>
+						<ns0:OHPExchangeCode>LAN</ns0:OHPExchangeCode>
+						<ns0:OHPExchangeName>LANCASTER</ns0:OHPExchangeName>
+						<ns0:NGAState>Live</ns0:NGAState>
+						<ns0:NGACapacity>G</ns0:NGACapacity>
+						<ns0:L2SID>BAABYV</ns0:L2SID>
+						<ns0:ProductMessages>
+							<ns0:ProductMessage>
+								<ns0:ProductType>IPTV-Unicast-SI</ns0:ProductType>
+								<ns0:ProductValue>True</ns0:ProductValue>
+							</ns0:ProductMessage>
+							<ns0:ProductMessage>
+								<ns0:ProductType>IPTV-Multicast-SI</ns0:ProductType>
+								<ns0:ProductValue>True</ns0:ProductValue>
+							</ns0:ProductMessage>
+
+							<ns0:ProductMessage>
+								<ns0:ProductType>IPTV-Unicast-MI</ns0:ProductType>
+								<ns0:ProductValue>True</ns0:ProductValue>
+							</ns0:ProductMessage>
+							<ns0:ProductMessage>
+								<ns0:ProductType>IPTV-Multicast-MI</ns0:ProductType>
+								<ns0:ProductValue>True</ns0:ProductValue>
+							</ns0:ProductMessage>
+
+
+						</ns0:ProductMessages>
+							<ns0:NGAReadyForServiceDate>
+							<ns0:DatetimeDetails>2014-08-06T15:09:48.698+05:30
+                                                        </ns0:DatetimeDetails>
+						</ns0:NGAReadyForServiceDate>
+					</ns0:ExchangeDetails>
+
+				</ns0:FTTCAvailability>
+			</ns0:NGAAvailabilityForGoldAddressKey>
+		</ns0:ResponseDetails>
+	</ns0:GetNGAAvailabilityResult>
+</ns0:GetNGAAvailabilityResponse>

@@ -1,0 +1,56 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:UpdateProvisioningStatusRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Order/Management/UpdateProvisioningStatus">
+    <ns0:CommonHeader>
+            <ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+            	<ns1:id>no value</ns1:id>
+            	<ns1:paradigm>REQUEST</ns1:paradigm>
+            	<ns1:version>3.0.0</ns1:version>
+            	<ns1:from ns1:componentVersion="13.0.0"/>
+            	<ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1"/>
+            	<ns1:tracking>
+            		<ns1:item 
+            			ns1:engine="NetworkOpalBatchServices-Process_Archive" 
+            			ns1:sequenceNo="1" ns1:service="Network/OPAL/RouteNGAOrderStatusUpdates" 
+            			ns1:status="S" ns1:timestamp="M_DateTimeZ"/>            
+            	</ns1:tracking>        
+            </ns1:commonHeader>    
+     </ns0:CommonHeader>    
+     
+     <ns0:updateTypeId>0</ns0:updateTypeId>    
+     <ns0:gatewayId>13</ns0:gatewayId>    
+     <ns0:clientReferenceId>M_cmdInstID</ns0:clientReferenceId>    
+     <ns0:gatewayCommandId>M_gwyCmdID</ns0:gatewayCommandId>    
+     <ns0:state>M_STATE</ns0:state>    
+     <ns0:lastUpdate>M_DateTime</ns0:lastUpdate>    
+     <ns0:AssetCli>        
+     		<ns1:cli xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/AssetCli">M_CLI</ns1:cli>    
+     </ns0:AssetCli>    
+     <ns0:accessMethod>15</ns0:accessMethod>    
+     <ns0:serviceResellerId>M_serviceResellerId</ns0:serviceResellerId>    
+     <ns0:Attributes>        
+     		<ns0:Attribute>            
+     			<ns0:name>CPWNReference</ns0:name>            
+     			<ns0:value>M_cpwnReference</ns0:value>        
+     		</ns0:Attribute>        
+     		
+     		<ns0:Attribute>            
+     			<ns0:name>AmendReason</ns0:name>            
+     			<ns0:value>AmendCustomerRequiredDate</ns0:value>        
+     		</ns0:Attribute>    
+     </ns0:Attributes>    
+     
+     <ns0:Resource>        
+     		<ns0:resourceId>M_cpwnReference</ns0:resourceId>        
+     		<ns0:resourceType>1</ns0:resourceType>    
+     </ns0:Resource>
+     
+    <ns0:targetGatewayCommandId>M_gwyCmdID_tarCMD</ns0:targetGatewayCommandId>
+ </ns0:UpdateProvisioningStatusRequest>

@@ -1,0 +1,94 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATEID</StateID>
+	<StateMachineTypeID>122</StateMachineTypeID>
+	<StateDateTime>M_STATEDATETIME+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_COMMANDID</CommandID>
+	<CommandTypeID>272</CommandTypeID>
+		<Properties>
+			<Name>MPFServiceID</Name>
+			<Value>LLLC0745014</Value>
+		</Properties>
+		<Properties>
+			<Name>TelephoneNumber</Name>
+			<Value>M_ALLOCATEDCLI</Value>
+		</Properties>
+		<Properties>
+			<Name>LLUType</Name>
+			<Value>M_LLUType</Value>
+		</Properties>
+		<Properties>
+			<Name>SchemaVersion</Name>
+			<Value>6</Value>
+		</Properties>
+		<Properties>
+			<Name>CASR</Name>
+			<Value>M_CASR</Value>
+		</Properties>
+		<Properties>	
+			<Name>MDFSiteID</Name>
+			<Value>LCKEN</Value>
+		</Properties>
+		<Properties>
+			<Name>CeaseDate</Name>
+			<Value>M_CEASEDATE</Value>
+		</Properties>
+		<Properties>
+			<Name>MPFTieCableID</Name>
+			<Value>LLUT309337</Value>
+		</Properties>
+		<Properties>
+			<Name>TiePairID</Name>
+			<Value>6</Value>
+		</Properties>
+		<Properties>
+			<Name>MPFDataRowID</Name>
+			<Value>33710252</Value>
+		</Properties>
+		<Properties>
+			<Name>CeaseReason</Name>
+			<Value>Service Ceased by Operator : NPOR Activated</Value>
+		</Properties>
+		<Properties>
+			<Name>NumberRangeHolderAgentID</Name>
+			<Value>3</Value>
+		</Properties>
+		<Properties>
+			<Name>NumberRangeHolderName</Name>
+			<Value>Core</Value>
+			</Properties>
+		<Properties>
+			<Name>NumberRangeHolderAgent</Name>
+			<Value>Core</Value>
+		</Properties>
+		<Properties>
+			<Name>DUNS</Name>
+			<Value>238574870</Value>
+		</Properties>
+		<Properties>
+			<Name>StateClarification</Name>
+			<Value>LSPG0510Order Acknowledged</Value>
+		</Properties>
+		<Properties>
+			<Name>CancellingRID</Name>
+			<Value>BBB</Value>
+		</Properties>
+		<Properties>
+			<Name>ResellerAccountReference</Name>
+			<Value>M_RESELLERACCOUNTREFERENCE</Value>
+		</Properties>
+		<Properties>
+			<Name>AgentID</Name>
+			<Value>569</Value>
+		</Properties>
+	</Command>

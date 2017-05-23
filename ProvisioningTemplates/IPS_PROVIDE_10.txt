@@ -1,0 +1,162 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>308</StateMachineTypeID>
+	<StateDateTime>M_DATE+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_COMMANDID</CommandID>
+	<CommandTypeID>121</CommandTypeID>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_CMDINSTID</Value>
+	</Properties>
+	<Properties>
+		<Name>Postcode</Name>
+		<Value>M40 2RZ</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>CorrelationID</Name>
+		<Value>d4d133b8-e6a6-4ab4-b3bb-2060036b0734\89726571</Value>
+	</Properties>
+	<Properties>
+		<Name>StateClarification</Name>
+		<Value>EPPG520:Your order will be delivered as soon as possible</Value>
+	</Properties>
+	<Properties>
+		<Name>Title</Name>
+		<Value>MJr</Value>
+	</Properties>
+	<Properties>
+		<Name>Surname</Name>
+		<Value>nut</Value>
+	</Properties>
+	<Properties>
+		<Name>FirstName</Name>
+		<Value>Test</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerAccountReference</Name>
+		<Value>M_ACCOUNTNUMBER</Value>
+	</Properties>
+	<Properties>
+		<Name>CareLevel</Name>
+		<Value>Standard</Value>
+	</Properties>
+	<Properties>
+		<Name>CustomerAgreedDate</Name>
+		<Value>M_CRDDATET11:59:59</Value>
+	</Properties>
+	<Properties>
+		<Name>Initials</Name>
+		<Value>Mr</Value>
+	</Properties>
+	<Properties>
+		<Name>ThoroughfareNumber</Name>
+		<Value>48</Value>
+	</Properties>
+	<Properties>
+		<Name>ThoroughfareName</Name>
+		<Value>Seabrook Rd</Value>
+	</Properties>
+	<Properties>
+		<Name>Posttown</Name>
+		<Value>Manchester</Value>
+	</Properties>
+	<Properties>
+		<Name>SupplierReference</Name>
+		<Value>BBEU12344444</Value>
+	</Properties>
+	<Properties>
+		<Name>DomainID</Name>
+		<Value>14</Value>
+	</Properties>
+	<Properties>
+		<Name>AllocatedNetworkAccessUsername</Name>
+		<Value>01616824647@talktalk.net</Value>
+	</Properties>
+	<Properties>
+		<Name>AllocatedNetworkAccessPassword</Name>
+		<Value>L6R2J7U2R4</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWREF</Value>
+	</Properties>
+	<Properties>
+		<Name>DSLProductCode</Name>
+		<Value>NCD_SUB_1008</Value>
+	</Properties>
+	<Properties>
+		<Name>RID</Name>
+		<Value>CCF</Value>
+	</Properties>
+	<Properties>
+		<Name>cancellingRID</Name>
+		<Value>BBB</Value>
+	</Properties>
+	<Properties>
+		<Name>CustomerRequiredDate</Name>
+		<Value>M_CRDDATET00:00:00</Value>
+	</Properties>
+	<Properties>
+		<Name>OriginalCAD</Name>
+		<Value>M_CRDDATET11:59:59</Value>
+	</Properties>
+	<Properties>
+		<Name>SupplementaryData</Name>
+		<Value>CoolingOff:Informational#520#"Your order will be delivered as soon as possible"</Value>
+	</Properties>
+	<Properties>
+		<Name>DSLDetailsType</Name>
+		<Value>Managed</Value>
+	</Properties>
+	<Properties>
+		<Name>AuthenticationType</Name>
+		<Value>GeneratePassword</Value>
+	</Properties>
+	<Properties>
+		<Name>BTWProvPlatform</Name>
+		<Value>EcoPlus</Value>
+	</Properties>
+	<Properties>
+		<Name>BTWProductType</Name>
+		<Value>WBC</Value>
+	</Properties>
+	<Properties>
+		<Name>SellersID</Name>
+		<Value>1-101253032</Value>
+	</Properties>
+	<Properties>
+		<Name>Exchange</Name>
+		<Value>EAKES</Value>
+	</Properties>
+	<Properties>
+		<Name>Market</Name>
+		<Value>NotSet</Value>
+	</Properties>
+	<Properties>
+		<Name>ProductSellersID</Name>
+		<Value>1-1234</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>8</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>569</Value>
+	</Properties>
+</Command>

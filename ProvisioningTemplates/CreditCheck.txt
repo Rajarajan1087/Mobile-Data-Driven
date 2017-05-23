@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv = "http://schemas.xmlsoap.org/soap/envelope/" xmlns:cred = "http://soa.talktalk.net/CreditCheckServices"> 
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cred:CheckCreditProfileRequest>
+            <cred:sourceChannel>TALKTALK SALES SITE</cred:sourceChannel>
+            <cred:salesChannel>Web</cred:salesChannel>
+            <cred:userName>TalkTalkSales</cred:userName>
+            <cred:NewCustomerCheck>
+                <cred:autoRefer>false</cred:autoRefer>
+                <cred:creditCheckOperation>CREDIT CHECK</cred:creditCheckOperation>
+                <cred:applicationReference>11033</cred:applicationReference>
+                <cred:CustomerDetails>
+                    <cred:creditCheckConsented>true</cred:creditCheckConsented>
+                    <cred:title>MR</cred:title>
+                    <cred:firstName>TORRADO</cred:firstName>
+                    <cred:lastName>LACEY</cred:lastName>
+                    <cred:dateOfBirth>1971-02-01</cred:dateOfBirth>
+                    <cred:gender>MALE</cred:gender>
+                </cred:CustomerDetails>
+                <cred:AddressDetails>
+                    <cred:Address>
+                        <cred:propertyNumber>311</cred:propertyNumber>
+                        <cred:streetName>Preston Old Road</cred:streetName>
+                        <cred:postalTown>BLACKBURN</cred:postalTown>
+                        <cred:county>Lancashire</cred:county>
+                        <cred:postcode>BB22TX</cred:postcode>
+                        <cred:addressType>CURRENT</cred:addressType>
+                        <cred:durationAtAddress>14</cred:durationAtAddress>
+                        <cred:addressReference>12345678901</cred:addressReference>
+                    </cred:Address>
+                </cred:AddressDetails>
+            </cred:NewCustomerCheck>
+        </cred:CheckCreditProfileRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+ 

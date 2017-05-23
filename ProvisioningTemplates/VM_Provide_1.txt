@@ -1,0 +1,42 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS   
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID_VM</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>165</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID_VM</CommandID>
+	<CommandTypeID>83</CommandTypeID>
+	<Properties>
+		<Name>Appointment</Name>
+		<Value>M_Appointment</Value>
+	</Properties>
+	<Properties>
+		<Name>AnswerService1571</Name>
+		<Value>Basic</Value>
+	</Properties>
+	<Properties>
+		<Name>AnswerService1571RemoteAccess</Name>
+		<Value>Disabled</Value>
+	</Properties>
+	<Properties>
+		<Name>Origin</Name>
+		<Value>LLU</Value>
+	</Properties>
+	<Properties>
+		<Name>Postcode</Name>
+		<Value>M44 5AH</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+</Command>

@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:add="https://webservices.opalonline.co.uk/AddressMatchingService">
+<soapenv:Header/>
+<soapenv:Body>
+<GetAvailableAddressesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns = "https://webservices.opalonline.co.uk/AddressMatchingService">
+<GetAvailableAddressesResult>Success</GetAvailableAddressesResult>
+<AddressResults>
+<Address>
+					<BuildingNumber>8</BuildingNumber>
+					<Street>Worton Way</Street>
+					<PostTown>ISLEWORTHy</PostTown>
+					<County>Middlesex</County>
+					<PostCode>ZZ3 3ZZ</PostCode>
+					<ALK>A01234567890</ALK>
+					<CSSDistrictCode>TH</CSSDistrictCode>
+					<Qualifier>Gold</Qualifier>
+</Address>
+</AddressResults>
+</GetAvailableAddressesResponse>
+</soapenv:Body>
+</soapenv:Envelope>

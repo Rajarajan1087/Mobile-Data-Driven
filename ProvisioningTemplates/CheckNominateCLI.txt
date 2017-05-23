@@ -1,0 +1,14 @@
+<ns0:NominatedCLICheckResponse xmlns:ns0 = "https://webservices.opalonline.co.uk/NominatedCLICheckerService/">
+	<ns0:NominatedCLICheckResult>
+		<ns0:Status>
+			<ns0:HasErrors>false</ns0:HasErrors>
+		</ns0:Status>
+		<ns0:NumberRetentionCodeExpirationDate>2015-03-31T13:20:00-05:00</ns0:NumberRetentionCodeExpirationDate>
+		<ns0:IsValidCLI>true</ns0:IsValidCLI>
+		<ns0:MDFSiteID>LAN</ns0:MDFSiteID>
+		<ns0:NumberRangeHolder>Sky</ns0:NumberRangeHolder>
+		<ns0:NumberRetentionCode>BC109</ns0:NumberRetentionCode>
+		<ns0:RetainCLIResponseCode>01</ns0:RetainCLIResponseCode>
+		<ns0:RetainCLIResponseDescription>Cannot be retained</ns0:RetainCLIResponseDescription>
+		</ns0:NominatedCLICheckResult>
+</ns0:NominatedCLICheckResponse>

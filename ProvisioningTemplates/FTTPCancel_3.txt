@@ -1,0 +1,50 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>0</OrderID>
+	<StateID>M_STATEID</StateID>
+	<StateMachineTypeID>661</StateMachineTypeID>
+	<StateDateTime>M_DATETIME+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_COMMANDID</CommandID>
+	<CommandTypeID>263</CommandTypeID>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_RESELLERREFERENCE</Value>
+	</Properties>
+	<Properties>
+		<Name>TargetCommandID</Name>
+		<Value>M_TargetCommandID</Value>
+	</Properties>
+	<Properties>
+		<Name>Username</Name>
+		<Value>gateways@opaltelecom.co.uk</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerAccountReference</Name>
+		<Value>M_RESELLERACCOUNTREFERENCE</Value>
+	</Properties>
+	<Properties>
+		<Name>CancelReason</Name>
+		<Value>M_REASON</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>M_ServiceResellerId</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>2</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>M_ServiceResellerId</Value>
+	</Properties>
+</Command>

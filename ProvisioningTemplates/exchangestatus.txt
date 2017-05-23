@@ -1,0 +1,123 @@
+<GetLineCharacteristicsResponse xmlns="http://llu.webservices.opalonline.co.uk/LineCharacteristicsWS">
+      <GetLineCharacteristicsResult>
+        <Status>
+          <HasErrors>false</HasErrors>
+          <Errors />
+        </Status>
+        <ResponseDetails>
+          <CharacteristicsBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ExchangeCharacteristicsForPostcode">
+            <Postcode>replaceMe</Postcode>
+<EstimatedSpeedInformation>
+              <EstimatedSpeedInformation>
+                <EstimatedSpeedInformationType>Standard</EstimatedSpeedInformationType>
+                <EstimatedAnnexADownstreamSpeed>18589</EstimatedAnnexADownstreamSpeed>
+                <EstimatedAnnexAMaxRange>20870</EstimatedAnnexAMaxRange>
+                <EstimatedAnnexAMinRange>12587</EstimatedAnnexAMinRange>
+                <MinThresholdAnnexA>8130</MinThresholdAnnexA>
+                <EstimatedAnnexMDownstreamSpeed>16389</EstimatedAnnexMDownstreamSpeed>
+                <EstimatedAnnexMUpstreamSpeed>2200</EstimatedAnnexMUpstreamSpeed>
+              </EstimatedSpeedInformation>
+            </EstimatedSpeedInformation>
+ <ExchangeDetails>
+              <ExchangeInfo>
+                <CSSExchangeDistrictCode>LC</CSSExchangeDistrictCode>
+                <ExchangeCode>LCROC</ExchangeCode>
+                <ExchangeName>Rochdale</ExchangeName>
+                <ExchangeState>Live</ExchangeState>
+                <ExchangeCapacity>G</ExchangeCapacity>
+                <ProductMessages>
+                                <ProductMessage>
+                                    <ProductCategory>IPTV</ProductCategory>
+                                    <ProductAttributes>
+                                        <ProductAttribute>
+                                            <AttributeName>Capacity-Unicast</AttributeName>
+                                            <AttributeValue>G</AttributeValue>
+                                        </ProductAttribute>
+                                        <ProductAttribute>
+                                            <AttributeName>Speed-Unicast</AttributeName>
+                                            <AttributeValue>True</AttributeValue>
+                                        </ProductAttribute>
+                                        <ProductAttribute>
+                                            <AttributeName>Capacity-Legacy</AttributeName>
+                                            <AttributeValue>G</AttributeValue>
+                                        </ProductAttribute>
+                                        <ProductAttribute>
+                                            <AttributeName>Speed-Legacy</AttributeName>
+                                            <AttributeValue>True</AttributeValue>
+                                        </ProductAttribute>
+                                        <ProductAttribute>
+                                            <AttributeName>Capacity-Multicast</AttributeName>
+                                            <AttributeValue>G</AttributeValue>
+                                        </ProductAttribute>
+                                        <ProductAttribute>
+                                            <AttributeName>Speed-Multicast</AttributeName>
+                                            <AttributeValue>True</AttributeValue>
+                                        </ProductAttribute>
+                                    </ProductAttributes>
+                                </ProductMessage>
+                            </ProductMessages>
+                <ForecastDate>2007-06-09T00:00:00</ForecastDate>
+                <CircuitLineLength>
+                  <MeasureType>CircuitEstimated</MeasureType>
+                  <Length>964</Length>
+                </CircuitLineLength>
+              </ExchangeInfo>
+            </ExchangeDetails>
+                    <AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>AECapacitance</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>BECapacitance</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>DPLineLengthEstimate</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>ANFPCategory</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>CelerityDBLoss</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>CalculatedDBLoss</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>DPNumber</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>PCPId</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>AggregatedCapacitance</AdditionalInformationType>
+                <AdditionalInformationValue>45</AdditionalInformationValue>
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>AggregatedDPLineLengthEstimate</AdditionalInformationType>
+                <AdditionalInformationValue>637</AdditionalInformationValue>
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>AggregatedCelerityDBLoss</AdditionalInformationType>
+                <AdditionalInformationValue>20.3</AdditionalInformationValue>
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>AggregatedCalculatedDBLoss</AdditionalInformationType>
+                <AdditionalInformationValue>4.95</AdditionalInformationValue>
+              </AdditionalInformation>
+              <AdditionalInformation>
+                <AdditionalInformationType>RecordedPostcode</AdditionalInformationType>
+                <AdditionalInformationValue xmlns:nil="true" />
+              </AdditionalInformation>
+            </AdditionalInformation>
+          </CharacteristicsBase>
+        </ResponseDetails>
+      </GetLineCharacteristicsResult>
+    </GetLineCharacteristicsResponse>

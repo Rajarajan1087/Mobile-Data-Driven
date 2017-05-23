@@ -1,0 +1,10 @@
+<ns0:CLIPortabilityCheckResponse xmlns:SOAP-ENV = "http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0 = "https://webservices.opalonline.co.uk/NominatedCLICheckerService/">
+		<ns0:CLIPortabilityCheckResult>
+			<ns0:Status>
+				<ns0:HasErrors>false</ns0:HasErrors>
+			</ns0:Status>
+			<ns0:IsValidCLI>true</ns0:IsValidCLI>
+			<ns0:NumberRangeHolder>Sky</ns0:NumberRangeHolder>
+			<ns0:ManualGNPRequired>3</ns0:ManualGNPRequired>
+		</ns0:CLIPortabilityCheckResult>
+	</ns0:CLIPortabilityCheckResponse>

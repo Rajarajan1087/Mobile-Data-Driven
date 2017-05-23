@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:GetAvailabilityResponse xmlns:ns0 = "http://webservices.talktalkplc.com/NetworkProductAvailabilityCheckerServiceV24"  xmlns:ns1 = "http://webservices.talktalkplc.com/NetworkProductAvailabilityCheckerService"> 
+	<ns0:GetAvailabilityResult>
+
+		<ns1:MPFAvailability>
+		<ns1:AvailabilityDetails xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"   xsi:type = "ns1:MPFAvailabilityDetails">
+			<ns2:Status xmlns:ns2 = "http://schemas.datacontract.org/2004/07/InHouse.SharedLibraries.ServiceBase.BaseTypes"> 
+					<ns2:Errors>
+						<ns2:Error>
+							<ns2:ErrorCategory>RequestError</ns2:ErrorCategory>
+							<ns2:ErrorCode>LCPTWS2163</ns2:ErrorCode>
+
+						</ns2:Error>
+					</ns2:Errors>
+					<ns2:HasErrors>true</ns2:HasErrors>
+			</ns2:Status>
+			<ns1:NumberPortingInformation>NPORInvolved</ns1:NumberPortingInformation>
+			<ns1:NumberRangeHolder>Virgin</ns1:NumberRangeHolder>
+			<ns1:Postcode>BH12 2LL</ns1:Postcode>
+			<ns1:TelephoneNumber>replaceMe</ns1:TelephoneNumber>
+			</ns1:AvailabilityDetails>
+		</ns1:MPFAvailability>
+	</ns0:GetAvailabilityResult>
+</ns0:GetAvailabilityResponse>

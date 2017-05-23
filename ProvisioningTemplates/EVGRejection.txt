@@ -1,0 +1,70 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:UpdateProvisioningStatusRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Order/Management/UpdateProvisioningStatus">
+<ns0:CommonHeader>
+          <ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+          <ns1:id>INT350</ns1:id>
+          <ns1:paradigm>REQUEST</ns1:paradigm>
+          <ns1:version>4.0.0</ns1:version>
+          <ns1:from ns1:componentVersion="11.0.7"/>
+          <ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1"/>
+	<ns1:tracking>
+	  <ns1:item ns1:service="Network/OPAL/RouteLLUOrderStatusUpdates" ns1:engine="NetworkOpalBatchServices-Process_Archive" ns1:status="S" ns1:timestamp="2011-10-13T12:15:00.837+01:00" ns1:sequenceNo="1"/>
+	</ns1:tracking>
+	</ns1:commonHeader>
+</ns0:CommonHeader>
+
+<ns0:updateTypeId>0</ns0:updateTypeId>
+
+<ns0:gatewayId>0</ns0:gatewayId>
+
+<ns0:clientReferenceId>M_cmdInstID_LLU</ns0:clientReferenceId>
+
+<ns0:gatewayCommandId>M_gwyCmdID_LLU</ns0:gatewayCommandId>
+
+<ns0:state>91</ns0:state>
+<ns0:lastUpdate>M_DateTime</ns0:lastUpdate>
+
+<ns0:customerCommitedDate>M_BT_appointmentDate</ns0:customerCommitedDate>
+
+<ns0:serviceResellerId>569</ns0:serviceResellerId><ns0:Attributes>
+
+<ns0:Attribute>
+<ns0:name>supplierVisitReference</ns0:name>
+<ns0:value>M_sup_visit_ref</ns0:value>
+</ns0:Attribute>
+<ns0:Attribute>
+	<ns0:name>supplierReasonCode</ns0:name>
+	<ns0:value>001</ns0:value>
+</ns0:Attribute>
+<ns0:Attribute>
+	<ns0:name>supplierReasonDescription</ns0:name>
+	<ns0:value>On Site Install Completed  - All Cabling/STB left On-Site-There is an issue that Tier2advised they will resolve remotely</ns0:value>
+</ns0:Attribute>
+<ns0:Attribute>
+	<ns0:name>EVGReasonCode</ns0:name>
+	<ns0:value>EVG_REAS_0002</ns0:value>
+</ns0:Attribute>
+<ns0:Attribute>
+<ns0:name>EVGReasonReasonDescription</ns0:name>
+<ns0:value>Job Incomplete, CPE onsite - remote resolution required</ns0:value>
+</ns0:Attribute>
+<ns0:Attribute>
+	<ns0:name>clientReference</ns0:name>
+	<ns0:value>M_cmdInstID_LLU</ns0:value>
+</ns0:Attribute>
+</ns0:Attributes>
+<ns0:AppointmentDetails>
+<ns1:appointmentId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BT_appointmentId</ns1:appointmentId>
+<ns1:appointmentDate xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BT_appointmentDate</ns1:appointmentDate>
+<ns1:appointmentSlotStartTime xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BT_appointmentSlotStartTime</ns1:appointmentSlotStartTime>
+<ns1:appointmentSlotEndTime xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BT_appointmentSlotEndTime</ns1:appointmentSlotEndTime>
+</ns0:AppointmentDetails>
+</ns0:UpdateProvisioningStatusRequest>

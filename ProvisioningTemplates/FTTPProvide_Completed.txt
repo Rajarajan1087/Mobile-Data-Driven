@@ -1,0 +1,87 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<OrderID>0</OrderID>
+		<StateID>M_STATEID</StateID>
+		<StateMachineTypeID>659</StateMachineTypeID>
+		<StateDateTime>M_DATE+01:00</StateDateTime>
+<StateUpdated>true</StateUpdated>
+<CommandID>M_COMMANDID</CommandID>
+<CommandTypeID>261</CommandTypeID>
+<Properties><Name>StateClarification</Name><Value>ID state with confirmation required NO</Value></Properties>
+<Properties><Name>AppointmentSlotStartTime</Name><Value>M_APPOINTMENTSLOTSTARTTIME</Value></Properties>
+<Properties><Name>AppointmentSlotEndTime</Name><Value>M_APPOINTMENTSLOTENDTIME</Value></Properties>
+<Properties><Name>ResellerReference</Name><Value>M_Resellerreference</Value></Properties>
+<Properties><Name>CallerDisplay</Name><Value>Disabled</Value></Properties>
+<Properties><Name>Error</Name><Value/></Properties>
+<Properties><Name>CallWaiting</Name><Value>Disabled</Value></Properties>
+<Properties><Name>ChooseToRefuse</Name><Value>Disabled</Value></Properties>
+<Properties><Name>ServiceType</Name><Value>ManagedVoiceData</Value></Properties>
+<Properties><Name>Username</Name><Value>01589635478@talktalkplc.com</Value></Properties>
+<Properties><Name>TPSBarredMessage</Name><Value>NU</Value></Properties>
+<Properties><Name>Replay</Name><Value>Disabled</Value></Properties>
+<Properties><Name>AmendMinLeadTime</Name><Value>5</Value></Properties>
+<Properties><Name>OriginalLeadTimeDate</Name><Value>M_ORGINALLEADTIME+01:00</Value></Properties>
+<Properties><Name>ExternalWorkRequired</Name><Value>YES</Value></Properties>
+<Properties><Name>ExternalWorkCompleted</Name><Value>NO</Value></Properties>
+<Properties><Name>NetworkActivationRequestDate</Name><Value>M_DATE+01:00</Value></Properties>
+<Properties><Name>CabWorkCompletedDate</Name><Value/></Properties>
+<Properties><Name>CPActionRequired</Name><Value>Y</Value></Properties>
+<Properties><Name>ResellerAccountReference</Name><Value>M_ResellerAccountreference</Value></Properties>
+<Properties><Name>AnswerService1571</Name><Value>Basic</Value></Properties>
+<Properties><Name>AnonymousCallRejection</Name><Value>Disabled</Value></Properties>
+<Properties><Name>CareLevel</Name><Value>Level3</Value></Properties>
+<Properties><Name>CLIPresentationRestrictionPermanent</Name><Value>Disabled</Value></Properties>
+<Properties><Name>CLIRetrieval</Name><Value>Basic</Value></Properties>
+<Properties><Name>MultiwayCalling</Name><Value>Disabled</Value></Properties>
+<Properties><Name>RingbackRequestRestriction</Name><Value>Disabled</Value></Properties>
+<Properties><Name>SubscriberCallForward</Name><Value>Disabled</Value></Properties>
+<Properties><Name>SubscriberIncomingCallBar</Name><Value>Disabled</Value></Properties>
+<Properties><Name>SubscriberOutgoingCallBar</Name><Value>Disabled</Value></Properties>
+<Properties><Name>SpecialServicesBar</Name><Value>Disabled</Value></Properties>
+<Properties><Name>PartialAddressIndicator</Name><Value>False</Value></Properties>
+<Properties><Name>EntryPreference</Name><Value>Normal</Value></Properties>
+<Properties><Name>FilePlacement</Name><Value>Residential</Value></Properties>
+<Properties><Name>LineUse</Name><Value>NormalUse</Value></Properties>
+<Properties><Name>ReminderCallAdvanced</Name><Value>Disabled</Value></Properties>
+<Properties><Name>ReminderCallBasic</Name><Value>Disabled</Value></Properties>
+<Properties><Name>CustomerAgreedDate</Name><Value>M_DATE2+01:00</Value></Properties>
+<Properties><Name>AgentID</Name><Value>569</Value></Properties>
+<Properties><Name>SubscriberCallForwardRemoteAccess</Name><Value>Disabled</Value></Properties>
+<Properties><Name>AppointmentID</Name><Value>M_APPOINTMENTID</Value></Properties>
+<Properties><Name>AnswerService1571RemoteAccess</Name><Value>Disabled</Value></Properties>
+<Properties><Name>OutgoingCallsTPSBarred</Name><Value>4345</Value></Properties>
+<Properties><Name>NationalBar</Name><Value>Disabled</Value></Properties>
+<Properties><Name>CountrySpecificBar</Name><Value>Disabled</Value></Properties>
+<Properties><Name>IncomingCallsTPSBarred</Name><Value>Disabled</Value></Properties>
+<Properties><Name>AllocatedCLI</Name><Value>M_CLI</Value></Properties>
+<Properties><Name>ContactName</Name><Value>MICHEALORGAN</Value></Properties>
+<Properties><Name>ContactTelephoneNumber</Name><Value>01253811465</Value></Properties>
+<Properties><Name>RetainExistingEntry</Name><Value>True</Value></Properties>
+<Properties><Name>SpeedDial</Name><Value>Disabled</Value></Properties>
+<Properties><Name>IPTVService</Name><Value>Enabled</Value></Properties>
+<Properties><Name>CASR</Name><Value>M_CASR</Value></Properties>
+<Properties><Name>DataProfile</Name><Value>sai</Value></Properties>
+<Properties><Name>UPRN</Name><Value>M_UPRN</Value></Properties>
+<Properties><Name>WayleaveIndicator</Name><Value>True</Value></Properties>
+<Properties><Name>PreviousStateID</Name><Value>4</Value></Properties>
+<Properties><Name>AgentID</Name><Value>569</Value></Properties>
+<Event><OrderID>0</OrderID>
+<StateID>M_STATEID</StateID>
+<StateMachineTypeID>659</StateMachineTypeID>
+<StateDateTime>M_DATE+01:00</StateDateTime>
+<StateUpdated>true</StateUpdated>
+<Properties><ID>2634</ID><Name>statusCode</Name><Value>M_StatusCode</Value></Properties>
+<Properties><ID>2634</ID><Name>clarificationDescription</Name><Value>TV cancellation onsite</Value></Properties>
+<Properties><ID>2634</ID><Name>clarificationCode</Name><Value>M_ClarificationCode</Value></Properties>
+</Event>
+</Command>
+
+}}     

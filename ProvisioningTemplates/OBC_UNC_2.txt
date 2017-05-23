@@ -1,0 +1,66 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS  
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>0</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>204</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID</CommandID>
+	<CommandTypeID>91</CommandTypeID>
+	<Properties>
+		<Name>ProductID</Name>
+		<Value>8</Value>
+	</Properties>
+	<Properties>
+		<Name>ProductInstanceID</Name>
+		<Value>2593524</Value>
+	</Properties>
+	<Properties>
+		<Name>SchemaVersion</Name>
+		<Value>1000</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>Country</Name>
+		<Value>UK</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNRef</Value>
+	</Properties>
+	<Properties>
+		<Name>CeaseDate</Name>
+		<Value>M_Future</Value>
+	</Properties>
+	<Properties>
+		<Name>UnsolicitedCeaseType</Name>
+		<Value>Cease</Value>
+	</Properties>
+	<Properties>
+		<Name>ProcessType</Name>
+		<Value>Internal</Value>
+	</Properties>
+	<Properties>
+		<Name>ExpectedCeaseDate</Name>
+		<Value>M_Future</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>1</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>569</Value>
+	</Properties>
+</Command>

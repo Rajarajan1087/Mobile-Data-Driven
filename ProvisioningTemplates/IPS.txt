@@ -1,0 +1,37 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <CheckIPStreamAvailabilityForTelephoneNumberResponse xmlns="https://webservices.opalonline.co.uk/IPStreamAvailabilityCheckerService/">
+         <CheckIPStreamAvailabilityForTelephoneNumberResult>
+            <Status>
+               <HasErrors>false</HasErrors>
+            </Status>
+            <TelephoneNumber>replaceMe</TelephoneNumber>
+            <PostcodeMatch>NotChecked</PostcodeMatch>
+            <MACCodeValid>NotSet</MACCodeValid>
+            <MACExpiryDate>0001-01-01T00:00:00</MACExpiryDate>
+            <FixedRateLineStatus>5</FixedRateLineStatus>
+            <FixedRateReadyDate>0001-01-01T00:00:00</FixedRateReadyDate>
+            <FixedRateExchangeStatus>Enabled</FixedRateExchangeStatus>
+            <FixedRateCapacityDate>0001-01-01T00:00:00</FixedRateCapacityDate>
+            <MaxAvailable>Yes</MaxAvailable>
+            <MaxSpeed>8000</MaxSpeed>
+            <MaxReadyDate>0001-01-01T00:00:00</MaxReadyDate>
+            <MaxExchangeStatus>Enabled</MaxExchangeStatus>
+            <MaxCapacityDate>0001-01-01T00:00:00</MaxCapacityDate>
+            <ExchangeCode>EMWESSW</ExchangeCode>
+            <ExchangeName>WEST WIGSTON</ExchangeName>
+            <ReasonCode>None</ReasonCode>
+            <SPName>ENTANET INTERNATIONAL LTD</SPName>
+            <CPName>BT WHOLESALE</CPName>
+            <CPContactNo>08000857023</CPContactNo>
+            <CADPending>0001-01-01T00:00:00</CADPending>
+            <SuggestedMessage>Your exchange is ADSL enabled, and our initial test on your line indicates that your line should be able to have an ADSL broadband service that provides a fixed line rate up to 2Mbps.
+Our test also indicates that your line currently supports a potential ADSL Max broadband line rate of 8Mbps.
+The actual stable line rate supportable will be determined during the first 10 days of use. This rate may change over time, to ensure line stability is maintained.
+If you decide to place an order, a further test will be performed to confirm if your line is suitable for the service you wish to purchase.
+Thank you for your interest.</SuggestedMessage>
+            <SupplementaryMessage>Note: If you already have a Broadband service enabled on this line and you want to switch service providers, you will need to contact both your current provider and your new provider to get your service changed over new and existing service provider to have this service transferred.</SupplementaryMessage>
+         </CheckIPStreamAvailabilityForTelephoneNumberResult>
+      </CheckIPStreamAvailabilityForTelephoneNumberResponse>
+   </soap:Body>
+</soap:Envelope>

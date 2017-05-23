@@ -1,0 +1,42 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:UpdateProvisioningStatusRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Order/Management/UpdateProvisioningStatus">
+    <ns0:CommonHeader>
+        <ns1:commonHeader 		xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+            <ns1:id>INT350</ns1:id>
+            <ns1:paradigm>REQUEST</ns1:paradigm>
+            <ns1:version>4.0.0</ns1:version>
+            <ns1:from ns1:componentVersion="15.0.4"/>
+            <ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1"/>
+            <ns1:tracking>
+                <ns1:item ns1:service="Network/OPAL/RouteLLUOrderStatusUpdates" ns1:engine="NetworkOpalBatchServices-Process_Archive" ns1:status="S" ns1:timestamp="M_DateTimeZ" ns1:sequenceNo="1"/>
+            </ns1:tracking>
+        </ns1:commonHeader>
+    </ns0:CommonHeader>
+    <ns0:updateTypeId>1</ns0:updateTypeId>
+    <ns0:updateSubTypeId>100</ns0:updateSubTypeId>
+    <ns0:gatewayId>0</ns0:gatewayId>
+    <ns0:gatewayCommandId>M_gwyCmdID_LLU</ns0:gatewayCommandId>
+    <ns0:state>M_STATE</ns0:state>
+    <ns0:lastUpdate>M_DateTime</ns0:lastUpdate>
+    <ns0:customerCommitedDate>M_DateTime</ns0:customerCommitedDate>
+    <ns0:AssetCli>
+        <ns1:cli xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/AssetCli">M_CLI</ns1:cli>
+    </ns0:AssetCli>
+    <ns0:accessMethod>3</ns0:accessMethod>
+    <ns0:serviceResellerId>M_serviceResellerId</ns0:serviceResellerId>
+    <ns0:Attributes>
+        <ns0:Attribute>
+            <ns0:name>CustomerAgreedDate</ns0:name>
+            <ns0:value>M_DateTime</ns0:value>
+        </ns0:Attribute>
+    </ns0:Attributes>
+</ns0:UpdateProvisioningStatusRequest> 

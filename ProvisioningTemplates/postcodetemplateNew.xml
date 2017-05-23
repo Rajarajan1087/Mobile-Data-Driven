@@ -1,0 +1,6 @@
+<GetAvailableAddressesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns = "https://webservices.opalonline.co.uk/AddressMatchingService"> 
+<GetAvailableAddressesResult>Success</GetAvailableAddressesResult>
+<AddressResults>
+
+</AddressResults>
+</GetAvailableAddressesResponse> 

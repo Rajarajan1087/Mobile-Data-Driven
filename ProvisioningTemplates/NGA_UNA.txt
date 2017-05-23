@@ -1,0 +1,70 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OrderID>M_OrderID</OrderID>
+	<StateID>1</StateID>
+	<StateMachineTypeID>485</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_UNAREF</CommandID>
+	<CommandTypeID>179</CommandTypeID>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNRef</Value>
+	</Properties>
+	<Properties>
+		<Name>SellerID</Name>
+		<Value>1-100959986</Value>
+	</Properties>
+	<Properties>
+		<Name>StateClarification</Name>
+		<Value>OTPG540:Order Status Update Amended</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>TargetCommandID</Name>
+		<Value>M_CommandID</Value>
+	</Properties>
+	<Properties>
+		<Name>CustomerAgreedDate</Name>
+		<Value>M_AppDateT09:00:00+01:00</Value>
+	</Properties>
+	<Properties>
+		<Name>AmendReason</Name>
+		<Value>Customer Requested Amend</Value>
+	</Properties>
+	<Properties>
+		<Name>AppointmentDate</Name>
+		<Value>M_AppDateT00:00:00+01:00</Value>
+	</Properties>
+	<Properties>
+		<Name>AppointmentTimeslot</Name>
+		<Value>PM</Value>
+	</Properties>
+	<Properties>
+		<Name>ConfirmationRequired</Name>
+		<Value>Yes</Value>
+	</Properties>
+	<Properties>
+		<Name>SchemaVersion</Name>
+		<Value>12</Value>
+	</Properties>
+	<Properties>
+		<Name>NGAType</Name>
+		<Value>FTTC</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>569</Value>
+	</Properties>
+</Command>

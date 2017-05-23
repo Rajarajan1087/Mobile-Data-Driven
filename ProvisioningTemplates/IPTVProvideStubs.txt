@@ -1,0 +1,17 @@
+      <confirmOrderResponse xmlns="http://iptvexchange.uk.intranet/IPTVExchangeInterface">
+         <confirmOrderReturn>
+            <ns1:confirmOrderResponseDetails xmlns:ns1="http://messages.iptvexchange.uk.intranet">
+               <ns2:CPWNRef xmlns:ns2="http://datatypes.iptvexchange.uk.intranet">replaceMe</ns2:CPWNRef>
+               <ns3:IPTVAccountCode xmlns:ns3="http://datatypes.iptvexchange.uk.intranet">100000015460</ns3:IPTVAccountCode>
+               <ns4:PIN xmlns:ns4="http://datatypes.iptvexchange.uk.intranet">6678</ns4:PIN>
+               <ns5:bookedVisit xmlns:ns5="http://datatypes.iptvexchange.uk.intranet">
+                  <ns5:bookedDate>MYBOOKEDDATET14:40:25.000Z</ns5:bookedDate>
+                  <ns5:installerCode>N_ENG</ns5:installerCode>
+                  <ns5:reason/>
+                  <ns5:status>BOOKED</ns5:status>
+               </ns5:bookedVisit>
+               <ns6:dateOrderBooked xmlns:ns6="http://datatypes.iptvexchange.uk.intranet">MYBOOKEDDATET12:20:25.000Z</ns6:dateOrderBooked>
+               <ns7:slotId xmlns:ns7="http://datatypes.iptvexchange.uk.intranet">12</ns7:slotId>
+            </ns1:confirmOrderResponseDetails>
+         </confirmOrderReturn>
+      </confirmOrderResponse>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AUTOMATION Suite" configfailurepolicy="continue" parallel="classes" thread-count="1">
+  <parameter name="test.env" value="@ENV@" /> 
+  <parameter name="whereToRun" value="@MODE@" />
+  <parameter name="MA_ONLINE" value="@MA_ONLINE@" />
+    <parameter name="RunType" value="@RunType@" />
+  <test name="AUTOMATION">
+      <classes>
+      <!-- Online test Suite -->
+      	replaceMe
+      </classes>
+   </test>
+</suite>

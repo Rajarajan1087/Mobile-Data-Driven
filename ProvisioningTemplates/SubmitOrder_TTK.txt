@@ -1,0 +1,107 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Private.Request.Online.RoutingTalkTalkSales.SubmitGatewayOrder.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<SubmitGatewayOrderRequest xmlns="http://xmlns.talktalk.co.uk/Sales/SubmitGatewayOrder">
+	<GatewayOrder>
+		<orderType>provide_package</orderType>
+		<orderPlacementDate>M_DateTime</orderPlacementDate>
+		<branchId>M_BRANCHID</branchId>
+		<activityId>3</activityId>
+		<brandId>TALKTALK</brandId>
+		<exchangeCode>EMKINGS</exchangeCode>
+		<sourceChannel>TALKTALK SALES SITE</sourceChannel>
+		<OriginatingAgent><originatingAgentId>007</originatingAgentId>
+		<originatingAgentType>0</originatingAgentType></OriginatingAgent>
+		<Resources>
+			<Resource>
+				<resourceId>M_CLI</resourceId>
+				<type>CLI</type>
+			</Resource>
+		</Resources>
+                <InstallationAddress>
+                  	<AddressSplit>
+                        	<propertyName></propertyName>
+                        	<propertySubname></propertySubname>
+                        	<propertyNumber>M_HOUSENO</propertyNumber>
+                        	<streetName>M_STREET</streetName>
+                        	<dependentStreetName></dependentStreetName>
+                  	</AddressSplit>
+                  	<postalTown>M_CITY</postalTown>
+                  	<postcode>M_POSTCODE</postcode>
+                  	<country>UK</country>
+            	</InstallationAddress>
+		<ExternalReferences>
+			<ExternalReference>
+				<name>Supplier Order ID</name>
+				<value>M_CONNECTIONID</value>
+			</ExternalReference>
+		</ExternalReferences>
+		<OrderLines>M_ORDERLINES</OrderLines>
+		<Account>
+			<AccountDetails>
+				<paymentMethodId>Direct Debit</paymentMethodId>
+				<DirectDebitDetail>
+					<bankAccountName>M_FNAME M_SNAME</bankAccountName>
+					<bankAccountNumber>M_ACCOUNTNUMBER</bankAccountNumber>
+					<bankCode>M_SORTCODE</bankCode>
+					<bankName>NATIONAL WESTMINSTER BANK PLC</bankName>
+				</DirectDebitDetail>
+			<BillingAddress>
+                              <AddressSplit>
+                                    <propertyName></propertyName>
+                                    <propertySubname></propertySubname>
+                                    <propertyNumber>M_HOUSENO</propertyNumber>
+                                    <streetName>M_STREET</streetName>
+                                    <dependentStreetName></dependentStreetName>
+                              </AddressSplit>
+                              <postalTown>M_CITY</postalTown>
+                              <postcode>M_POSTCODE</postcode>
+                              <country>UK</country>
+                        </BillingAddress>
+			</AccountDetails>
+		</Account>
+		<Customer>
+			<CustomerDetails>
+				<titleId>M_TITLE</titleId>
+				<firstName>M_FNAME</firstName>
+				<lastName>M_SNAME</lastName>
+				<dateOfBirth>M_DOBT00:00:00+01:00</dateOfBirth>
+				<genderId>not_specified</genderId>
+			<EAddressDetails>
+				<EAddressDetail>
+					<emailAddress>M_FNAME.M_SNAME@autocentral.com</emailAddress>
+					<emailAddressTypeId>CORRESPONDENCE</emailAddressTypeId>
+				</EAddressDetail>
+				<EAddressDetail>
+					<emailAddress>M_FNAME.M_SNAME@autocentral.com</emailAddress>
+					<emailAddressTypeId>ONLINEUSERNAME</emailAddressTypeId>
+				</EAddressDetail>
+			</EAddressDetails>
+			<Telephones>
+				<Telephone>
+					<telephoneNumber>07550462781</telephoneNumber>
+					<telephoneTypeId>Mobile</telephoneTypeId>
+				</Telephone>
+			</Telephones>
+			<CustomerAddress>
+                              <AddressSplit>
+                                    <propertyName></propertyName>
+                                    <propertySubname></propertySubname>
+                                    <propertyNumber>M_HOUSENO</propertyNumber>
+                                    <streetName>M_STREET</streetName>
+                                    <dependentStreetName></dependentStreetName>
+                              </AddressSplit>
+                              <postalTown>M_CITY</postalTown>
+                              <postcode>M_POSTCODE</postcode>
+                              <country>UK</country>
+			</CustomerAddress>
+			</CustomerDetails>
+		</Customer>
+	</GatewayOrder>
+</SubmitGatewayOrderRequest>

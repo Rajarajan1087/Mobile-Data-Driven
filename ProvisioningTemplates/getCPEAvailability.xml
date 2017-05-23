@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns0:GetSubscriberGatewayInfoResponse xmlns:ns0 = "http://webservices.opalonline.co.uk/DeviceManagementWebService">
+	<ns0:GetSubscriberGatewayInfoResult>
+		<ns0:Status>
+			<ns0:HasErrors>false</ns0:HasErrors>
+		</ns0:Status>
+		<ns0:DeviceStatus>DeviceFoundWithCompatability</ns0:DeviceStatus>
+		<ns0:DeviceDetails>
+			<ns0:Vendor>Huawei</ns0:Vendor>
+			<ns0:Model>DSL-2680</ns0:Model>
+			<ns0:Firmware>v1.14t</ns0:Firmware>
+			<ns0:DeviceSerialNumber>21530312958K15011467</ns0:DeviceSerialNumber>
+			<ns0:FirstContactDate>2014-04-15T13:20:00-05:00</ns0:FirstContactDate>
+			<ns0:LastContactDate>2014-04-15T13:20:00-05:00</ns0:LastContactDate>
+		</ns0:DeviceDetails>
+		<ns0:ProductCompatibilityList>
+			<ns0:ProductCompatibility>
+				<ns0:ProductName>Fibre</ns0:ProductName>
+				<ns0:Compatibility>
+					<ns0:Hardware>false</ns0:Hardware>
+					<ns0:Firmware>false</ns0:Firmware>
+				</ns0:Compatibility>
+			</ns0:ProductCompatibility>
+        <ns0:ProductCompatibility>
+				<ns0:ProductName>TV</ns0:ProductName>
+				<ns0:Compatibility>
+					<ns0:Hardware>false</ns0:Hardware>
+					<ns0:Firmware>false</ns0:Firmware>
+				</ns0:Compatibility>
+			</ns0:ProductCompatibility>
+<ns0:ProductCompatibility>
+				<ns0:ProductName>EnhancedWifi</ns0:ProductName>
+				<ns0:Compatibility>
+					<ns0:Hardware>false</ns0:Hardware>
+					<ns0:Firmware>false</ns0:Firmware>
+				</ns0:Compatibility>
+			</ns0:ProductCompatibility>
+
+			<ns0:ProductCompatibility>
+				<ns0:ProductName>FibreOneBox</ns0:ProductName>
+				<ns0:Compatibility>
+					<ns0:Hardware>false</ns0:Hardware>
+					<ns0:Firmware>false</ns0:Firmware>
+				</ns0:Compatibility>
+			</ns0:ProductCompatibility>
+		</ns0:ProductCompatibilityList>
+	</ns0:GetSubscriberGatewayInfoResult>
+</ns0:GetSubscriberGatewayInfoResponse>

@@ -1,0 +1,12 @@
+<ns0:NominatedCLICheckResponse xmlns:SOAP-ENV = "http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0 = "https://webservices.opalonline.co.uk/NominatedCLICheckerService/">
+		<ns0:NominatedCLICheckResult>
+			<ns0:Status>
+				<ns0:HasErrors>false</ns0:HasErrors>
+			</ns0:Status>
+			<ns0:NRCExpirationDate>2012-03-25T19:19:46.527Z</ns0:NRCExpirationDate>
+			<ns0:IsCLIValid>true</ns0:IsCLIValid>
+			<ns0:MDFSiteID>LCROC</ns0:MDFSiteID>
+			<ns0:NumberRangeHolder>BT</ns0:NumberRangeHolder>
+			<ns0:ResponseCode>NotSet</ns0:ResponseCode>
+		</ns0:NominatedCLICheckResult>
+	</ns0:NominatedCLICheckResponse>

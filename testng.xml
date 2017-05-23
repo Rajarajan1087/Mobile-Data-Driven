@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AUTOMATION Suite" configfailurepolicy="continue"
+	parallel="classes" thread-count="1">
+	<!-- <listeners> -->
+	<!-- <listener class-name="com.Retry.RetryListener"/> -->
+	<!-- </listeners> -->
+	<parameter name="test.env" value="npt" />
+	<parameter name="whereToRun" value="local" />
+	<parameter name="MA_ONLINE" value="auto" />
+	<parameter name="RunType" value="${TestType}" />
+	<test name="AUTOMATION">
+		<classes>
+			<class name="com.TestSuite.Sales.TS01_TC01SBBNewlinePostCodeOnly" /> 
+			<!-- <class name="com.TestSuite.MobileWelcomeCentre.TC01_AIP_NL_291_TVStore" /> -->
+		</classes>
+	</test>
+</suite>

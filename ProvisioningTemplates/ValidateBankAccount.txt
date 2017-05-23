@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ban="http://soa.talktalk.net/BankingServices" xmlns:bank="http://xmlns.talktalkplc.com/schema/CDM/Bank">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ban:ValidateBankAccountRequest>
+         <ban:BankDetails>
+            <bank:bankAccountNumber>45613745</bank:bankAccountNumber>
+            <bank:sortCode>524132</bank:sortCode>
+            <bank:country>GBR</bank:country>
+         </ban:BankDetails>
+      </ban:ValidateBankAccountRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,62 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS  
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>159</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID_LLU</CommandID>
+	<CommandTypeID>80</CommandTypeID>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_cmdInstID_LLU</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerAccountReference</Name>
+		<Value>M_ACCOUNT</Value>
+	</Properties>
+	<Properties>
+		<Name>SchemaVersion</Name>
+		<Value>6</Value>
+	</Properties>
+	<Properties>
+		<Name>NominatedCLI</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>BTAccountNumber</Name>
+		<Value />
+	</Properties>
+	<Properties>
+		<Name>NominatedCLINRC</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>NominatedCLIOverrideFlag</Name>
+		<Value>Yes</Value>
+	</Properties>
+	<Properties>
+		<Name>OldPremisePostCode</Name>
+		<Value>L27 5RN</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>RetainNumberFlag</Name>
+		<Value>No</Value>
+	</Properties>
+	<Properties>
+		<Name>ReasonCode</Name>
+		<Value>CustomerRequest</Value>
+	</Properties>
+</Command>

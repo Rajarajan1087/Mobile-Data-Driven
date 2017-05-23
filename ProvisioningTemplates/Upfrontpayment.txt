@@ -1,0 +1,14 @@
+<ord:UpfrontPayment>
+                    <ord:paymentReferenceCode>tst323</ord:paymentReferenceCode>
+                    <ord:paymentDate>M_DATE2T08:11:35+01:00</ord:paymentDate>
+                    <ord:registerCardFlag>false</ord:registerCardFlag>
+                    <ord:CreditCardPayment>
+                        <ord:creditCardPaymentAmount>12600</ord:creditCardPaymentAmount>
+                    </ord:CreditCardPayment>
+                    <ord:CreditCardDetail>
+                        <card:cardHolderName>tester</card:cardHolderName>
+                        <card:cardNumber>5555555555555557</card:cardNumber>
+                        <card:cardType>MASTERCARD</card:cardType>
+                        <card:endDate>1310</card:endDate>
+                    </ord:CreditCardDetail>
+                </ord:UpfrontPayment>

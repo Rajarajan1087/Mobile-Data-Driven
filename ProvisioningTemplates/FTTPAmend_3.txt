@@ -1,0 +1,80 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <OrderID>M_OrderID</OrderID>
+    <StateID>M_StateID</StateID>
+    <StateMachineTypeID>662</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+    <StateUpdated>true</StateUpdated>
+    <CommandID>M_CommandID</CommandID>
+    <CommandTypeID>264</CommandTypeID>
+    <Properties>
+        <Name>StateClarification</Name>
+        <Value>Appointment amend  request has been sent</Value>
+    </Properties>
+    <Properties>
+        <Name>ResellerReference</Name>
+        <Value>M_ResellerReference</Value>
+    </Properties>
+    <Properties>
+        <Name>TargetCommandID</Name>
+        <Value>M_TargetCommandID</Value>
+    </Properties>
+    <Properties>
+        <Name>Username</Name>
+        <Value>gateways@opaltelecom.co.uk</Value>
+    </Properties>
+    <Properties>
+        <Name>ResellerAccountReference</Name>
+        <Value>M_ResellerAccountReference</Value>
+    </Properties>
+    <Properties>
+        <Name>AgentID</Name>
+        <Value>569</Value>
+    </Properties>
+    <Properties>
+        <Name>ContactName</Name>
+        <Value>John</Value>
+    </Properties>
+    <Properties>
+        <Name>ContactTelephoneNumber</Name>
+        <Value>01612223009</Value>
+    </Properties>
+    <Properties>
+        <Name>ContactEmail</Name>
+        <Value>John@Hyd.com</Value>
+    </Properties>
+    <Properties>
+        <Name>ContactAlternativeTelephoneNumber</Name>
+        <Value>01612229999</Value>
+    </Properties>
+    <Properties>
+        <Name>AppointmentNotes</Name>
+        <Value>Notes1</Value>
+    </Properties>
+    <Properties>
+        <Name>AppointmentHealthAndSafetyNotes</Name>
+        <Value>HealthNotes</Value>
+    </Properties>
+    <Properties>
+        <Name>AppointmentSpecialArrangementNotes</Name>
+        <Value>SPN</Value>
+    </Properties>
+    <Properties>
+        <Name>PreviousStateID</Name>
+        <Value>2</Value>
+    </Properties>
+    <Properties>
+        <Name>AgentID</Name>
+        <Value>569</Value>
+    </Properties>
+</Command>

@@ -1,0 +1,22 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_ENV.Private.Request.CRM.Routing.SearchAddressDetails.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://www.cpw.co.uk/CPW/CRM/searchaddressdetails">
+	<payload xmlns="">
+		<userName>nptccagent5</userName>
+		<request>
+			<sourceChannel>CRM</sourceChannel>
+			<addressElementSearch>
+				<address>
+					<postcode>M_POSTCODE</postcode>
+				</address>
+			</addressElementSearch>
+		</request>
+	</payload>
+</root>

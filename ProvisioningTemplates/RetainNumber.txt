@@ -1,0 +1,8 @@
+<ns0:RetainNumberResponse xmlns:ns0 = "https://webservices.opalonline.co.uk/NominatedCLICheckerService/">
+	<ns0:RetainNumberResult>
+		<ns0:Status>
+			<ns0:HasErrors>false</ns0:HasErrors>
+		</ns0:Status>
+		<ns0:NumberRetentionCode>BC906</ns0:NumberRetentionCode>
+	</ns0:RetainNumberResult>
+</ns0:RetainNumberResponse>

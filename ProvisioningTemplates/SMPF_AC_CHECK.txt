@@ -1,0 +1,10 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Network.AOL.CheckSMPFAvailabilityForCLI.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:CheckSMPFAvailabilityForCLIRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Network/AOL/CheckSMPFAvailabilityForCLI"><ns0:CommonHeader><ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader"><ns1:id>INT282</ns1:id><ns1:paradigm>REQUEST</ns1:paradigm><ns1:version>8.0.0</ns1:version><ns1:from ns1:componentVersion="18.0.5"/><ns1:to ns1:destination="CPW.GBR.HRT.Public.Request.Network.Opal.CheckSMPFAvailabilityForCLI.1"/><ns1:tracking><ns1:item ns1:engine="AvailabilityCheckerServices-Process_Archive" ns1:sequenceNo="1" ns1:service="Order/Enquiry/CheckServiceAvailability" ns1:status="S" ns1:timestamp="2014-01-30T20:49:51"/></ns1:tracking></ns1:commonHeader></ns0:CommonHeader><ns0:cli>M_CLI</ns0:cli></ns0:CheckSMPFAvailabilityForCLIRequest>

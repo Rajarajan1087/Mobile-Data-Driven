@@ -1,0 +1,48 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Management.UpdateProvisioningStatus.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:UnsolicitedAssetCreationRequest xmlns:ns0 = "http://xmlns.cpw.co.uk/CPW/Order/Management/UnsolicitedAssetCreationRequest" (http://xmlns.cpw.co.uk/CPW/Order/Management/UnsolicitedAssetCreationRequest%27)  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" (http://www.w3.org/2001/XMLSchema-instance%27)  xsi:schemaLocation = "http://xmlns.cpw.co.uk/CPW/Order/Management/UnsolicitedAssetCreationRequest ../../SchemaExports/BusinessServices/Order/Management/UnsolicitedAssetCreation/UnsolicitedAssetCreation.xsd">
+	<ns0:CommonHeader>
+		<ns1:commonHeader xmlns:ns1 = "http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader"> (http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader%27%3E) 
+			<ns1:id>INT608</ns1:id>
+			<ns1:paradigm>REQUEST</ns1:paradigm>
+			<ns1:version>2.0.0</ns1:version>
+			<ns1:from ns1:componentVersion = "7.0.0"/>
+			<ns1:to ns1:destination = "CPW.GBR.M_env.Public.Request.Order.Management.UnsolicitedAssetCreation.1"/>
+			<ns1:tracking>
+			<ns1:item 
+				ns1:service = "Network/IPTV/UnsolicitedAssetCreation" 
+				ns1:engine = "TrioIPTVRouteServices-Process_Archive"
+				ns1:status = "S" 
+				ns1:timestamp = "M_DateTime"
+				ns1:sequenceNo = "1"/>
+			</ns1:tracking>
+			<ns1:timing/>
+	</ns1:commonHeader>
+</ns0:CommonHeader>
+<ns0:activityId>36</ns0:activityId>
+<ns0:serviceSalesChannelId>1</ns0:serviceSalesChannelId>
+<ns0:clientReferenceId>IPTV-DS2</ns0:clientReferenceId>
+<ns0:ProductDetails>
+  <ns0:SuppServiceDetails>
+   <ns0:SuppService>
+    <ns0:productId>1081</ns0:productId>
+    <ns0:action>0</ns0:action>
+    <ns0:effectiveDate>M_DateTime</ns0:effectiveDate>
+    <ns0:propositionId>10726</ns0:propositionId>
+   </ns0:SuppService>
+  </ns0:SuppServiceDetails>
+</ns0:ProductDetails>
+<ns2:Resources xmlns:ns2 = "http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities"> (http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities%27%3E) 
+  <ns2:Resource>
+   <ns2:resourceId>M_CASR</ns2:resourceId>
+   <ns2:type>4</ns2:type>
+  </ns2:Resource>
+</ns2:Resources>
+</ns0:UnsolicitedAssetCreationRequest> 

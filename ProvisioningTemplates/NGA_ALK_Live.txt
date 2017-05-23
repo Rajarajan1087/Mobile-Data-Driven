@@ -1,0 +1,44 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetNGAAvailabilityResponse xmlns="http://webservices.opalonline.co.uk/NGAAvailabilityCheckerWS">
+      <GetNGAAvailabilityResult>
+        <Status>
+          <HasErrors>false</HasErrors>
+          <Errors />
+        </Status>
+        <ResponseDetails>
+          <NGAAvailabilityForGoldAddressKey>
+            <GoldAddressKey>replaceMe</GoldAddressKey>
+            <FTTCAvailability>
+              <FTTCAvailability>Yes</FTTCAvailability>
+              <BestMaxUpstreamBandwidth>20</BestMaxUpstreamBandwidth>
+              <BestMaxDownstreamBandwidth>80</BestMaxDownstreamBandwidth>
+              <BestMaxBandwidthMeasure>Predicted</BestMaxBandwidthMeasure>
+              <WorstMaxUpstreamBandwidth>20</WorstMaxUpstreamBandwidth>
+              <WorstMaxDownstreamBandwidth>80</WorstMaxDownstreamBandwidth>
+              <WorstMaxBandwidthMeasure>Predicted</WorstMaxBandwidthMeasure>
+              <ExchangeDetails>
+                <CSSExchangeDistrictCode>LC</CSSExchangeDistrictCode>
+                <OHPExchangeCode>ROC</OHPExchangeCode>
+                <OHPExchangeName>Rochdale</OHPExchangeName>
+                <NGAState>Live</NGAState>
+                <NGACapacity>G</NGACapacity>
+                <L2SID>BAABLP</L2SID>
+                <ProductMessages>
+                  <ProductMessage>
+                    <ProductType>IPTV-Unicast</ProductType>
+                    <ProductValue>True</ProductValue>
+                  </ProductMessage>
+                  <ProductMessage>
+                    <ProductType>IPTV-Multicast</ProductType>
+                    <ProductValue>True</ProductValue>
+                  </ProductMessage>
+                </ProductMessages>
+              </ExchangeDetails>
+            </FTTCAvailability>
+          </NGAAvailabilityForGoldAddressKey>
+        </ResponseDetails>
+      </GetNGAAvailabilityResult>
+    </GetNGAAvailabilityResponse>
+  </soap:Body>
+</soap:Envelope>

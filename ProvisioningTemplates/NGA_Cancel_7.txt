@@ -1,0 +1,42 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS  
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>0</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>482</StateMachineTypeID>
+	<StateDateTime>M_DATETIME+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_COMMANDID</CommandID>
+	<CommandTypeID>176</CommandTypeID>
+	<Properties>
+		<Name>Error</Name>
+		<Value>M_ERROR</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_RESELLERREFERENCE</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>TargetCommandID</Name>
+		<Value>M_TARGETCOMMANDID</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNREFERENCE</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>1</Value>
+	</Properties>
+</Command>

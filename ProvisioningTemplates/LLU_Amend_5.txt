@@ -1,0 +1,74 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>115</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID</CommandID>
+	<CommandTypeID>60</CommandTypeID>
+	<Properties>
+		<Name>LLUType</Name>
+		<Value>M_LLUType</Value>
+	</Properties>
+	<Properties>
+		<Name>Error</Name>
+		<Value />
+	</Properties>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_cmdInstID</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>TargetCommandID</Name>
+		<Value>100951385</Value>
+	</Properties>
+	<Properties>
+		<Name>CustomerRequiredByDate</Name>
+		<Value>M_customerRequiredDate+01:00</Value>
+	</Properties>
+	<Properties>
+		<Name>AmendReason</Name>
+		<Value>ConfirmUnsolicitedAmend</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNRef</Value>
+	</Properties>
+	<Properties>
+		<Name>NumberRangeHolderAgentID</Name>
+		<Value>3</Value>
+	</Properties>
+	<Properties>
+		<Name>NumberRangeHolderAgent</Name>
+		<Value>Core</Value>
+	</Properties>
+	<Properties>
+		<Name>NumberRangeHolderName</Name>
+		<Value>Core</Value>
+	</Properties>
+	<Properties>
+		<Name>DUNS</Name>
+		<Value>238574870</Value>
+	</Properties>
+	<Properties>
+		<Name>EFM</Name>
+		<Value>False</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>2</Value>
+	</Properties>
+	</Command>

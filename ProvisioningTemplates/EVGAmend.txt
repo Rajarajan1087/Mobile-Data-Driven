@@ -1,0 +1,15 @@
+<AmendVisitRequest>
+  <clientId>1</clientId>
+  <visitReference>4960</visitReference>
+  <agentId>LEarath</agentId>
+  <callerId>6</callerId>
+  <clientReference>111</clientReference>
+  <visitDate>2011-02-25</visitDate>
+  <visitWindowStart>07:00:00</visitWindowStart>
+  <visitWindowEnd>09:00:00</visitWindowEnd>
+  <customerContactDetailsMobile>07896543211</customerContactDetailsMobile>
+  <customerContactDetailsServiceCLI>09463195144</customerContactDetailsServiceCLI>
+  <visitNotes>install</visitNotes>
+  <visitHealthAndSafetyNotes>Watch the step</visitHealthAndSafetyNotes>
+  <visitSpecialArrangementNotes>knock the next door</visitSpecialArrangementNotes>
+</AmendVisitRequest>

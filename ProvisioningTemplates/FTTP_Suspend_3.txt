@@ -1,0 +1,58 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_OrderID</OrderID>
+	<StateID>M_STATEID</StateID>
+	<StateMachineTypeID>664</StateMachineTypeID>
+	<StateDateTime>M_DATE+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_CommandID</CommandID>
+	<CommandTypeID>266</CommandTypeID>
+	<Properties>
+		<Name>StateClarification</Name>
+		<Value></Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_ResellerReference</Value>
+	</Properties>
+	<Properties>
+		<Name>Username</Name>
+		<Value>gateways@opaltelecom.co.uk</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerAccountReference</Name>
+		<Value>M_ResellerAccountReference</Value>
+	</Properties>
+	<Properties>
+		<Name>VoiceSuspendType</Name>
+		<Value>Revoke</Value>
+	</Properties>
+	<Properties>
+		<Name>DataSuspendType</Name>
+		<Value>Revoke</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>M_ServiceResellerId</Value>
+	</Properties>
+	<Properties>
+		<Name>CASR</Name>
+		<Value>M_CASR</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>2</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>M_ServiceResellerId</Value>
+	</Properties>
+</Command>

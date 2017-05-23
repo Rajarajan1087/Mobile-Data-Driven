@@ -1,0 +1,70 @@
+ <ord:Account>
+                    <ord:AccountDetails>
+                        <ord:paymentMethod>DIRECT DEBIT</ord:paymentMethod>
+                        <ord:DirectDebitDetail>
+                            <ord:BankAccount>
+                                <ord:bankName>HSBC BANK PLC</ord:bankName>
+                                <ord:bankAccountName>M_FNAME M_SNAME</ord:bankAccountName>
+                                <ord:bankAccountNumber>31020293</ord:bankAccountNumber>
+                                <ord:bankCode>404720</ord:bankCode>
+                            </ord:BankAccount>
+                        </ord:DirectDebitDetail>
+                        <ord:BillingAddress>
+                            <add:AddressSplit>
+                                <add:propertyNumber>1</add:propertyNumber>
+                                <add:streetName>VICTORIA ROAD</add:streetName>
+                                <add:locality>Sturry</add:locality>
+                            </add:AddressSplit>
+                            <add:postalTown>LONDON</add:postalTown>
+                            <add:county>Middlesex</add:county>
+                            <add:country>UK</add:country>
+                            <add:postcode>CV34 6TE</add:postcode>
+                        </ord:BillingAddress>
+                    </ord:AccountDetails>
+                    <ord:InvoiceHeader>
+                        <ord:invoiceMediaType>EMAIL</ord:invoiceMediaType>
+                    </ord:InvoiceHeader>
+                </ord:Account>
+                <ord:Customer>
+                    <ord:CustomerDetails>
+                        <ord:title>MR</ord:title>
+                        <ord:firstName>M_FNAME</ord:firstName>
+                        <ord:lastName>M_SNAME</ord:lastName>
+                        <ord:dateOfBirth>1984-09-09</ord:dateOfBirth>
+                        <ord:gender>NOT_SPECIFIED</ord:gender>
+                        <ord:MarketingPrefDetails>
+                            <ord:marketingPrefEmailFlag>true</ord:marketingPrefEmailFlag>
+                            <ord:marketingPrefSMSFlag>true</ord:marketingPrefSMSFlag>
+                            <ord:marketingPrefLetterFlag>true</ord:marketingPrefLetterFlag>
+                            <ord:marketingPrefVoiceFlag>true</ord:marketingPrefVoiceFlag>
+                        </ord:MarketingPrefDetails>
+                        <ord:EaddressDetails>
+                            <ord:EaddressDetail>
+                                <ead:emailAddress>M_FNAMEM_SNAME@cpwplc.com</ead:emailAddress>
+                                <ead:emailAddressType>EMAIL</ead:emailAddressType>
+                            </ord:EaddressDetail>
+                        </ord:EaddressDetails>
+                        <ord:Telephones>
+                            <ord:Telephone>
+                                <tel:telephoneNumber>M_CLI</tel:telephoneNumber>
+                                <tel:telephoneType>HOME</tel:telephoneType>
+                            </ord:Telephone>
+                        </ord:Telephones>
+                        <ord:CustomerAddress>
+                            <add:AddressSplit>
+                                <add:propertyNumber>1</add:propertyNumber>
+                                <add:streetName>VICTORIA ROAD</add:streetName>
+                                <add:locality>Sturry</add:locality>
+                            </add:AddressSplit>
+                            <add:postalTown>LONDON</add:postalTown>
+                            <add:county>Middlesex</add:county>
+                            <add:country>UK</add:country>
+                            <add:postcode>CV34 6TE</add:postcode>
+                        </ord:CustomerAddress>
+                    </ord:CustomerDetails>
+                </ord:Customer>
+            </ord:GatewayOrder>
+            <ord:correlationId>M_CORRID</ord:correlationId>
+        </ord:SubmitGatewayOrderInputRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

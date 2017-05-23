@@ -1,0 +1,11 @@
+<confirmOrderResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://iptvexchange.uk.intranet/IPTVExchangeInterface">
+<confirmOrderReturn>
+<ns1:confirmOrderResponseDetails xmlns:ns1="http://messages.iptvexchange.uk.intranet">
+  <ns2:CPWNRef xmlns:ns2="http://datatypes.iptvexchange.uk.intranet">replaceMe</ns2:CPWNRef> 
+  <ns3:IPTVAccountCode xmlns:ns3="http://datatypes.iptvexchange.uk.intranet">200178972920</ns3:IPTVAccountCode> 
+  <ns4:PIN xmlns:ns4="http://datatypes.iptvexchange.uk.intranet">0545</ns4:PIN> 
+  <ns5:dateOrderBooked xmlns:ns5="http://datatypes.iptvexchange.uk.intranet">2014-12-16T13:29:40.107Z</ns5:dateOrderBooked> 
+  <ns6:slotId xmlns:ns6="http://datatypes.iptvexchange.uk.intranet">0</ns6:slotId> 
+  </ns1:confirmOrderResponseDetails>
+  </confirmOrderReturn>
+  </confirmOrderResponse>

@@ -1,0 +1,32 @@
+<GetLineCharacteristicsResponse xmlns = "http://llu.webservices.opalonline.co.uk/LineCharacteristicsWS"> (http://llu.webservices.opalonline.co.uk/LineCharacteristicsWS%27%3E) 
+            <GetLineCharacteristicsResult>
+                        <Status>
+                                    <HasErrors>true</HasErrors>
+                                    <Errors>
+                                              <Error>
+                                                            <ErrorCode>LCPTWS2158</ErrorCode>
+                                                            <ErrorCategory>RequestError</ErrorCategory>
+                                                </Error>
+                                    </Errors>
+                        </Status>
+                        <ResponseDetails>
+                                    <CharacteristicsBase xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" (http://www.w3.org/2001/XMLSchema-instance%27)  xsi:type = "LineCharacteristicsForTelephoneNumber">
+						<ExchangeDetails xsi:nil = "true"/>
+                                                <TelephoneNumber xsi:nil = "true"/>
+                                                <AccessLineStatus xsi:nil = "true"/>
+                                                <NumberRangeHolder>Sky</NumberRangeHolder>
+                                                <NumberPortingInformation>NPORInvolved</NumberPortingInformation>
+					<StoppedLineDetails>
+                                                <ServiceID>replaceMe</ServiceID>
+                                                <LastWorkingPartialDN>96</LastWorkingPartialDN>
+                                                <StoppedDate>1999-05-31T13:20:00-05:00</StoppedDate>
+                                                <ProductType>MPF</ProductType>
+                                                <StoppedLineLocation>Lytton Way</StoppedLineLocation>
+                                                <TerminationType>NTE</TerminationType>
+                                                <InstallationType>Standard</InstallationType>
+                                        </StoppedLineDetails>
+
+                                    </CharacteristicsBase>
+                        </ResponseDetails>
+            </GetLineCharacteristicsResult>
+</GetLineCharacteristicsResponse>

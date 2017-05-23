@@ -1,0 +1,296 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Public.Request.Order.Entry.SubmitGatewayOrder.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:SubmitGatewayOrderRequest xmlns:ns0="http://xmlns.cpw.co.uk/CPW/Order/Entry/SubmitGatewayOrder">
+	<ns0:CommonHeader>
+		<ns1:commonHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPWIntegrationsTibco/Common/CommonHeader">
+			<ns1:id>INT715</ns1:id>
+			<ns1:paradigm>REQUEST</ns1:paradigm>
+			<ns1:version>1.0.0</ns1:version>
+			<ns1:from ns1:componentVersion="1.0.0"/>
+			<ns1:to ns1:destination="CPW.GBR.M_env.Public.Request.Order.Entry.SubmitGatewayOrder.1"/>
+			<ns1:tracking>
+				<ns1:item ns1:service="WebGateway/Order/OrderEntryServices/SubmitGatewayOrder" ns1:engine="WebGatewayOrderServices-Process_Archive" ns1:status="S" ns1:timestamp="M_DATEZ" ns1:sequenceNo="1"/>
+			</ns1:tracking>
+		</ns1:commonHeader>
+	</ns0:CommonHeader>
+	<ns0:GatewayOrder>
+		<ns1:orderType xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">13</ns1:orderType>
+		<ns1:orderPlacementDate xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">M_DATEZ</ns1:orderPlacementDate>
+		<ns1:branchId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">1231</ns1:branchId>
+		<ns1:activityId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">26</ns1:activityId>
+		<ns1:brandId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">0</ns1:brandId>
+		<ns1:exchangeCode xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">LCROC</ns1:exchangeCode>
+		<ns0:Resources>
+			<ns1:Resource xmlns:ns1="http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities">
+				<ns1:resourceId>M_NLCLI</ns1:resourceId>
+				<ns1:type>0</ns1:type>
+			</ns1:Resource>
+		</ns0:Resources>
+		<ns1:Attributes xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+			<ns1:Attribute>
+				<ns1:name>networkResultsReference</ns1:name>
+				<ns1:value>M_NRR</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>alkQualifier</ns1:name>
+				<ns1:value>3</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>alkReference</ns1:name>
+				<ns1:value>B14162110798</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>cssDistrictCode</ns1:name>
+				<ns1:value>LC</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>exchangeCode</ns1:name>
+				<ns1:value>LCROC</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>estimatedDownstreamSpeed80</ns1:name>
+				<ns1:value>80000</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>estimatedDownstreamSpeed20</ns1:name>
+				<ns1:value>20000</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>estimatedUpstreamSpeed</ns1:name>
+				<ns1:value>20000</ns1:value>
+			</ns1:Attribute>
+			<ns1:Attribute>
+				<ns1:name>estimatedUpstreamSpeed20</ns1:name>
+				<ns1:value>15000</ns1:value>
+			</ns1:Attribute>
+		</ns1:Attributes>
+		<ns0:InstallationAddress>
+			<ns1:addressSplit xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+				<ns1:propertyName>24</ns1:propertyName>
+				<ns1:streetName>The Icon High Street</ns1:streetName>
+			</ns1:addressSplit>
+			<ns1:postalTown xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">Westbury</ns1:postalTown>
+			<ns1:county xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">Wilts</ns1:county>
+			<ns1:isoCountryCode xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">0</ns1:isoCountryCode>
+			<ns1:postcode xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">W11 4AR</ns1:postcode>
+		</ns0:InstallationAddress>
+		<ns1:DeliveryAddress xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+			<ns2:addressSplit xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+				<ns2:propertyName>24</ns2:propertyName>
+				<ns2:streetName>The Icon High Street</ns2:streetName>
+			</ns2:addressSplit>
+			<ns2:postalTown xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">Westbury</ns2:postalTown>
+			<ns1:county xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">Wilts</ns1:county>
+			<ns2:isoCountryCode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">0</ns2:isoCountryCode>
+			<ns2:postcode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">W11 4AR</ns2:postcode>
+			<ns1:emailAddress>M_FNAME@gmail.com</ns1:emailAddress>
+			<ns1:mobileTelephoneNumber>07548923567</ns1:mobileTelephoneNumber>
+		</ns1:DeliveryAddress>
+		<ns0:ExternalReferences>
+			<ns0:ExternalReference>
+				<ns0:name>Supplier Order ID</ns0:name>
+				<ns0:value>M_ORDERNO</ns0:value>
+			</ns0:ExternalReference>
+		</ns0:ExternalReferences>
+		<ns0:OrderLines>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">286</ns1:productId>
+				<ns0:sgoProductType>0</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10019</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10020</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10021</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10027</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10082</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10086</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10091</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10424</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">12936</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20401</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20656</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+				<ns1:Attributes xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">
+					<ns1:Attribute>
+						<ns1:name>appointmentRetreivalDate</ns1:name>
+						<ns1:value>2015-11-27T07:37:43+00:00</ns1:value>
+					</ns1:Attribute>
+					<ns1:Attribute>
+						<ns1:name>appointmentFirstRequestedDate</ns1:name>
+						<ns1:value>2015-12-04</ns1:value>
+					</ns1:Attribute>
+					<ns1:Attribute>
+						<ns1:name>appointmentFirstAvailableDate</ns1:name>
+						<ns1:value>2015-12-08</ns1:value>
+					</ns1:Attribute>
+				</ns1:Attributes>
+				<ns1:AppointmentDetails xmlns:ns1="http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities">
+					<ns2:appointmentId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BTAPPID</ns2:appointmentId>
+					<ns2:appointmentDate xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_BTDATE13:20:00-05:00</ns2:appointmentDate>
+					<ns2:appointmentSlotStartTime xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">08:00:00</ns2:appointmentSlotStartTime>
+					<ns2:appointmentSlotEndTime xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">13:00:00</ns2:appointmentSlotEndTime>
+					<ns2:contactName xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_FNAME M_LNAME</ns2:contactName>
+					<ns2:contactTelephoneNumber xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">07548923567</ns2:contactTelephoneNumber>
+					<ns2:contactEmailAddress xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Appointment">M_FNAME@gmail.com</ns2:contactEmailAddress>
+				</ns1:AppointmentDetails>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20719</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20755</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20697</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20817</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10718</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20597</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20716</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20759</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20878</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">20402</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">10144</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+			<ns0:OrderLine>
+				<ns1:productId xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/CustomerOrder">11744</ns1:productId>
+				<ns0:sgoProductType>1</ns0:sgoProductType>
+			</ns0:OrderLine>
+		</ns0:OrderLines>
+		<ns0:Account>
+			<ns1:AccountDetails xmlns:ns1="http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities">
+				<ns1:paymentMethodId>0</ns1:paymentMethodId>
+				<ns1:DirectDebitDetail>
+					<ns1:BankAccount>
+						<ns1:bankAccountName>M_FNAME M_LNAME</ns1:bankAccountName>
+						<ns1:bankAccountNumber>62936039</ns1:bankAccountNumber>
+						<ns1:bankCode>980990</ns1:bankCode>
+						<ns1:bankName>ULSTER BANK LTD</ns1:bankName>
+					</ns1:BankAccount>
+				</ns1:DirectDebitDetail>
+				<ns1:BillingAddress>
+					<ns2:addressSplit xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+						<ns2:propertyName>24</ns2:propertyName>
+						<ns2:streetName>The Icon High Street</ns2:streetName>
+					</ns2:addressSplit>
+					<ns2:postalTown xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">Westbury</ns2:postalTown>
+					<ns1:county xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">Wilts</ns1:county>
+					<ns2:isoCountryCode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">0</ns2:isoCountryCode>
+					<ns2:postcode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">W11 4AR</ns2:postcode>
+				</ns1:BillingAddress>
+			</ns1:AccountDetails>
+			<ns1:InvoiceHeader xmlns:ns1="http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities">
+				<ns1:invoiceItemisationId>1</ns1:invoiceItemisationId>
+				<ns1:invoiceMediaTypeId>1</ns1:invoiceMediaTypeId>
+				<ns1:invoiceLayoutOptionTypeId>0</ns1:invoiceLayoutOptionTypeId>
+			</ns1:InvoiceHeader>
+		</ns0:Account>
+		<ns0:Customer>
+			<ns1:CustomerDetails xmlns:ns1="http://xmlns.cpw.co.uk/CPW/BusinessServices/Shared/OrderEntities">
+				<ns1:titleId>0</ns1:titleId>
+				<ns1:firstName>M_FNAME</ns1:firstName>
+				<ns1:lastName>M_LNAME</ns1:lastName>
+				<ns1:dateOfBirth>1981-05-02</ns1:dateOfBirth>
+				<ns1:genderId>3</ns1:genderId>
+				<ns1:EAddressDetails>
+					<ns1:EAddressDetail>
+						<ns2:emailAddress xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/EAddress">M_FNAME@gmail.com</ns2:emailAddress>
+						<ns2:emailAddressTypeId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/EAddress">0</ns2:emailAddressTypeId>
+					</ns1:EAddressDetail>
+					<ns1:EAddressDetail>
+						<ns2:emailAddress xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/EAddress">M_FNAME@gmail.com</ns2:emailAddress>
+						<ns2:emailAddressTypeId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/EAddress">2</ns2:emailAddressTypeId>
+					</ns1:EAddressDetail>
+				</ns1:EAddressDetails>
+				<ns1:TelephoneDetails>
+					<ns1:TelephoneDetail>
+						<ns2:telephoneNumber xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/TeleNumber">07548923567</ns2:telephoneNumber>
+						<ns2:telephoneTypeId xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/TeleNumber">3</ns2:telephoneTypeId>
+					</ns1:TelephoneDetail>
+				</ns1:TelephoneDetails>
+				<ns1:CustomerAddress>
+					<ns2:addressSplit xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">
+						<ns2:propertyName>24</ns2:propertyName>
+						<ns2:streetName>The Icon High Street</ns2:streetName>
+					</ns2:addressSplit>
+					<ns2:postalTown xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">Westbury</ns2:postalTown>
+					<ns1:county xmlns:ns1="http://xmlns.cpw.co.uk/CPW/CDM/Address">Wilts</ns1:county>
+					<ns2:isoCountryCode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">0</ns2:isoCountryCode>
+					<ns2:postcode xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Address">W11 4AR</ns2:postcode>
+				</ns1:CustomerAddress>
+				<ns2:MarketingPrefDetails xmlns:ns2="http://xmlns.cpw.co.uk/CPW/CDM/Customer">
+					<ns2:marketingPrefEmailFlag>true</ns2:marketingPrefEmailFlag>
+					<ns2:marketingPrefSMSFlag>true</ns2:marketingPrefSMSFlag>
+					<ns2:marketingPrefLetterFlag>true</ns2:marketingPrefLetterFlag>
+					<ns2:marketingPrefVoiceFlag>true</ns2:marketingPrefVoiceFlag>
+				</ns2:MarketingPrefDetails>
+			</ns1:CustomerDetails>
+		</ns0:Customer>
+		<ns0:sourceChannelId>8</ns0:sourceChannelId>
+		<ns0:installationMethodId>2</ns0:installationMethodId>
+		<ns0:fibreInstallationMethodId>2</ns0:fibreInstallationMethodId>
+	</ns0:GatewayOrder>
+</ns0:SubmitGatewayOrderRequest>

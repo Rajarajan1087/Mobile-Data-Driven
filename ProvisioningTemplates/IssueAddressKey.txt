@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:add="https://webservices.opalonline.co.uk/AddressMatchingService/IssueAddressKey">
+<soapenv:Header/>
+<soapenv:Body>
+<IssueAddressKeyResponse xmlns = "https://webservices.opalonline.co.uk/AddressMatchingService">
+<IssueAddressKeyResult>Success</IssueAddressKeyResult>
+<AddressDetail>
+
+</AddressDetail>
+</IssueAddressKeyResponse>
+</soapenv:Body>
+</soapenv:Envelope>

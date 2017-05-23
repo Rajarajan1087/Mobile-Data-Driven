@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project []>
+
+<project name="AUTOMATION" default="usage" basedir=".">
+	<!-- ========== Initialize Property Variables =================================== -->
+	<property environment="env" />
+	<!-- Base Directoy - Make sure this file is placed along with the bin folder -->
+	<property name="test.home" value="${basedir}" />
+	<!--Configure where Jar files located on this pc -->
+	<property name="test.jars" value="${test.home}\LocalJARs" />
+	<!--Do not change the following 3 tags-->
+	<property name="test.dest" value="${test.home}/ant_build" />
+	<property name="test.src" value="${test.home}/src" />
+	<!--<property name="ant.reports" value="${test.home}/ant_result" />
+	<property name="ant.reports" value="${test.dir}/ant_result/${time.stamp}" />-->
+	<tstamp>
+		<format property="time.stamp" pattern="yyyy_MM_dd-hh_mm_ss" />
+	</tstamp>
+	<property name="ant.reports" value="${test.home}/ant_result" />
+	<property name="ant.reports.location" value="${test.home}/ant_result" />
+	<property name="Outputfiles.TestType" value="${test.home}/Outputfiles/${TestType}" />
+	<property name="Outputfiles.Screenshots" value="${test.home}/Outputfiles/${TestType}/Screenshots" />
+
+	<echo message="${test.home}/Build_Result/${TestType}_Build_No_${env.BUILD_NUMBER}_AUTO_${time.stamp}" />
+	<property name="buildResult.location" value="${test.home}/Build_Result/${TestType}_Build_No_${env.BUILD_NUMBER}_AUTO_${time.stamp}" />
+	<property name="buildResult.report.location" value="${buildResult.location}/Report" />
+	<property name="buildResult.testResult.location" value="${buildResult.location}/Test_Results" />
+	<property name="buildResult.screenshots.location" value="${buildResult.location}/Screenshots" />
+
+	<property name="test.defaultTestResults.location" value="${test.home}/Outputfiles/${TestType}"/>
+	<property name="test.defaultScreensShots.location" value="${test.defaultTestResults.location}/Screenshots"/>
+
+	<taskdef resource="testngtasks" classpath="${test.jars}/testng-6.8.jar" />
+	<path id="testcase.path">
+		<pathelement location="${test.dest}" />
+		<fileset dir="${test.jars}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+<!--start-selenium-server  -->
+	<target name="start-selenium-server">
+		<!--Where is the Selenium server located on this pc -->
+		<java jar="D:\vikraman\workspace\Chordiant\LocalJARs\selenium-server-standalone-2.43.0.jar" fork="true" spawn="true" />
+		<!--java jar="${test.home}/lib/selenium-server.jar"/> -->
+	</target>
+
+	<target name="setClassPath" unless="test.classpath">
+		<path id="classpath_jars">
+			<fileset dir="${test.jars}" includes="*.jar" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+	<target name = "jar">
+	        <delete file = "MyJar.jar"/>
+	        <delete file = "MANIFEST.MF"/>
+	        <manifest file = "MANIFEST.MF">
+	            <attribute name = "Main-Class" value = "MyClass"/>
+	            <attribute name = "Class-Path" value = "."/>
+	        </manifest>
+	        <jar destfile = "MyJar.jar" basedir = "." includes = "*.class"  manifest = "MANIFEST.MF"/>
+	   </target>
+	<!-- initialize everything-->
+	<target name="init" depends="setClassPath">
+		<!-- set time stamp-->
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+		</tstamp>
+		<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat" else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+	</target>
+
+	<!-- does nothing ... just an echo -->
+	<target name="nothing">
+		<echo message="just an echo." />
+	</target>
+	<!-- copy -->
+	<target name="copy">
+		<echo message="Copying Test Results to Previous_Results Folder" />
+		<property name="source_dir" value="${basedir}/Previous_Results" />
+		<!-- <copy todir="${ant.reports.location}">
+	    <fileset dir="${basedir}/screenshots"/>
+		</copy> -->
+		<mkdir dir="${ant.reports.location}" />
+		<copy todir="${basedir}/Previous_Results/">
+			<fileset dir="${ant.reports.location}" />
+		</copy>
+	</target>
+	<!-- clean -->
+	<target name="clean">
+		<echo message="Deleting old Build directory" />
+		<mkdir dir="${test.dest}"/>
+		<delete dir="${test.dest}" />
+		
+		<echo message="Deleting old Reports Directory" />
+		<mkdir dir="${ant.reports}"/>
+		<delete dir="${ant.reports}" />
+		
+		<echo message="Deleting old Test Directory" />
+		<mkdir dir="${Outputfiles.TestType}"/>
+		<delete dir="${Outputfiles.TestType}" />
+		<mkdir dir="${Outputfiles.TestType}"/>
+	
+		<echo message="Deleting old Screenshots Directory" />
+		<mkdir dir="${Outputfiles.Screenshots}"/>
+		<delete dir="${Outputfiles.Screenshots}" />
+		<mkdir dir="${Outputfiles.Screenshots}"/>
+	
+	</target>
+
+	<!-- compile -->
+	<target name="compile" depends="init,copy,clean">
+		<echo message="Initializing and cleaning 1st" />
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*" />
+		</delete>
+		<echo message="Compile1: Creating Build directory..." />
+		<mkdir dir="${test.dest}" />
+		<echo message="Compile1: Creating Result directory..." />
+		<mkdir dir="${ant.reports}" />
+		<echo message="classpath------: ${test.classpath}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" srcdir="${test.src}" target="1.7" classpath="${test.classpath}" >
+		</javac>
+	</target>
+
+	<!-- build -->
+	<target name="build" depends="init">
+		<echo message="just an echo. but must have performed init before" />
+	</target>
+
+
+	<!-- this comes when you type ant alone in cmd in this test folder -->
+	<target name="usage">
+		<echo message="Ant run can now execute test." />
+	</target>
+
+	<path id="test.c">
+		<fileset dir="${test.jars}" includes="*.jar" />
+	</path>
+	<!-- Copy TestNG XML -->
+	<target name="CopyTestNGXML">
+		<copy todir="${basedir}" file="${basedir}/TestNG_xmls/testng.xml" overwrite="true">
+				<filterset>
+			         <filter token="ENV" value="${env.name}"/>
+			      	 <filter token="MODE" value="${where.ToRun}"/>
+			      	 <filter token="MA_ONLINE" value="auto"/>
+					<filter token="CPEG" value="${env3.name}"/>
+					<filter token="RunType" value="${TestType}"/>
+		        </filterset>
+		</copy>
+	</target>
+	<!-- Main Ant Run properties-->
+	<target name="run">
+		<condition property="propsSpecified">
+			<and>
+				<isset property="env.name" />
+				<isset property="where.ToRun" />
+			</and>
+		</condition>
+		<fail unless="propsSpecified" message="env.name and/or where.ToRun property not specified."/>
+	<!--	  <copy todir="${basedir}" file="${basedir}/TestNG_xmls/testng.xml" overwrite="true">
+		<filterset>
+				         <filter token="ENV" value="${env.name}"/>
+				      	 <filter token="MODE" value="${where.ToRun}"/>
+				      	 <filter token="MA_ONLINE" value="${env2.name}"/>
+				      	 <filter token="CPEG" value="${env3.name}"/>
+				      </filterset>
+		   </copy>-->
+		<echo message="Should now start the actual test run." />
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${ant.reports}" includes="**/*" />
+		</delete>
+		<testng outputdir="${ant.reports}" classpathref="testcase.path" >
+			<xmlfileset dir="${test.home}" includes="testng.xml" />
+		</testng>
+	</target>
+
+	<!-- Copy Data for the build -->
+	<target name="copyFinal" description="Copy the result data for the build">
+
+		<echo message="buildResult.location:${buildResult.location}"/>
+		<echo message="buildResult.report.location:${buildResult.report.location}"/>
+		<echo message="buildResult.testResult.location:${buildResult.testResult.location}"/>
+		<echo message="buildResult.screenshots.location:${buildResult.screenshots.location}"/>
+		<echo message="test.defaultTestResults.location:${test.defaultTestResults.location}"/>
+		<echo message="test.defaultScreensShots.location:${test.defaultTestResults.location}/Screenshots"/>
+
+		<mkdir dir="${buildResult.location}" />
+		<mkdir dir="${buildResult.report.location}" />
+		<mkdir dir="${buildResult.testResult.location}" />
+		<mkdir dir="${buildResult.screenshots.location}" />
+		
+		<mkdir dir="${basedir}/testng-xslt" />
+		<delete dir="${basedir}/testng-xslt" />
+		<mkdir dir="${basedir}/testng-xslt" />
+		
+		<mkdir dir="${basedir}/testng-xslt/Screenshots" />
+		<delete dir="${basedir}/testng-xslt/Screenshots" />
+		<mkdir dir="${basedir}/testng-xslt/Screenshots" />
+				
+		<copy todir="${buildResult.report.location}">
+			<fileset dir="${ant.reports.location}" />
+		</copy>
+		<copy todir="${buildResult.testResult.location}">
+			<fileset dir="${test.defaultTestResults.location}">
+				<include name="**/*.xls" />
+				 <include name="**/*.html" />
+			</fileset>
+		</copy>
+		<copy todir="${basedir}/Report">
+			<fileset dir="${buildResult.testResult.location}">
+				 <include name="**/*.html" />
+			</fileset>
+		</copy>
+		<copy todir="${buildResult.screenshots.location}">
+			<fileset dir="${test.defaultScreensShots.location}" />
+		</copy>
+		<copy todir="${basedir}/testng-xslt/Screenshots">
+			<fileset dir="${test.defaultScreensShots.location}" />
+		</copy>
+
+		<delete>
+			<fileset dir="${test.defaultTestResults.location}">
+				<include name="**/*.xls" />
+				<include name="**/*.html" />
+			</fileset>
+		</delete>
+		<delete>
+			<fileset dir="${test.defaultScreensShots.location}" />
+		</delete>
+
+		<xslt in="${ant.reports.location}/testng-results.xml" style="${basedir}/testng-results.xsl" out="${basedir}/testng-xslt/index.html" classpathref="testjar.c" processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${basedir}/testng-xslt/" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true" />
+		</xslt>
+
+		<copy todir="${buildResult.location}/testng-xslt">
+			<fileset dir="${basedir}/testng-xslt">
+			</fileset>
+		</copy>
+	</target>
+
+
+	<!-- Generate XSLT report-->
+	<path id="testjar.c">
+		<fileset dir="${test.jars}" includes="*.jar" />
+	</path>
+
+	<target name="makexsltreports">
+		
+	</target>
+	
+	<!-- Update Quality Center -->
+	<target name="updateQc">
+		<exec executable="QCAPILib">
+			<arg value="QCformatResults.xml" />
+		</exec>
+	</target>
+</project>

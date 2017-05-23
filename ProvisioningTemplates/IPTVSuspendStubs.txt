@@ -1,0 +1,5 @@
+      <setUsageStatusResponse xmlns="http://iptvexchange.uk.intranet/IPTVExchangeInterface">
+         <setUsageStatusReturn>
+            <ns1:success xmlns:ns1="http://messages.iptvexchange.uk.intranet">true</ns1:success>
+         </setUsageStatusReturn>
+      </setUsageStatusResponse>

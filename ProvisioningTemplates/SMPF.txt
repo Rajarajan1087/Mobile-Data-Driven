@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:getLLUAvailabilityByDNResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="urn:soap.llu.aol.com">
+         <getLLUAvailabilityByDNReturn href="#id0"/>
+      </ns1:getLLUAvailabilityByDNResponse>
+      <multiRef id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:LLUAvailabilityByDNResponse" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="urn:soap.llu.aol.com">
+         <directoryNumber xsi:type="soapenc:string">01831704011</directoryNumber>
+         <response xsi:type="soapenc:string">YES</response>
+         <reason xsi:type="soapenc:string">L</reason>
+         <reasonDescription xsi:type="soapenc:string">LLU Installation</reasonDescription>
+         <accessLineStatus xsi:type="soapenc:string">Working</accessLineStatus>
+         <dnError xsi:type="soapenc:string">2150</dnError>
+         <dnErrorDescription xsi:type="soapenc:string">No Errors - Line characteristics obtained</dnErrorDescription>
+         <inventoryReason xsi:type="soapenc:string" xsi:nil="true"/>
+         <inventoryReasonDescription xsi:type="soapenc:string" xsi:nil="true"/>
+         <exchangeCode xsi:type="soapenc:string">MYRWD</exchangeCode>
+         <exchangeName xsi:type="soapenc:string">RAWDON</exchangeName>
+         <estimatedLineSpeed xsi:type="soapenc:string">5000</estimatedLineSpeed>
+         <acceptingNewOrders xsi:type="xsd:boolean">true</acceptingNewOrders>
+         <productStatus xsi:type="soapenc:string">LISTED</productStatus>
+         <availableProducts soapenc:arrayType="soapenc:string[5]" xsi:type="soapenc:Array">
+            <availableProducts xsi:type="soapenc:string">LLU16000Max</availableProducts>
+            <availableProducts xsi:type="soapenc:string">LLU8000Max</availableProducts>
+            <availableProducts xsi:type="soapenc:string">LLU2000</availableProducts>
+            <availableProducts xsi:type="soapenc:string">LLU1000</availableProducts>
+            <availableProducts xsi:type="soapenc:string">LLU500</availableProducts>
+         </availableProducts>
+      </multiRef>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+<ord:ExternalReferences>
+                    <ord:ExternalReference>
+                        <ord:name>Supplier Order ID</ord:name>
+                        <ord:value>M_ORDERID</ord:value>
+                    </ord:ExternalReference>
+                </ord:ExternalReferences>
+                <ord:OrderLines>
+                    <ord:OrderLine>
+                        <ord:productId>M_PACKAGEID</ord:productId>
+                        <ord:sgoProductType>PACKAGE</ord:sgoProductType>

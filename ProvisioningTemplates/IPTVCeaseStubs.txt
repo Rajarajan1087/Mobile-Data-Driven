@@ -1,0 +1,5 @@
+<terminateAccountResponse xmlns="http://iptvexchange.uk.intranet/IPTVExchangeInterface">
+         <terminateAccountReturn>
+            <ns1:success xmlns:ns1="http://messages.iptvexchange.uk.intranet">true</ns1:success>
+         </terminateAccountReturn>
+      </terminateAccountResponse>

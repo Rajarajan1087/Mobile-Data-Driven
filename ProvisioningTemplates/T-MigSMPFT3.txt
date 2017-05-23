@@ -1,0 +1,58 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+CPW.GBR.M_env.Private.Request.Network.Routing.SubmitGatewayOrder.1
+86400000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+
+<?xml version="1.0" encoding="UTF-8"?><SubmitGatewayOrderRequest xmlns="http://xmlns.cpw.co.uk/CPW/Network/Routing/SubmitGatewayOrder" xmlns:ns2="http://xmlns.cpw.co.uk/CPW/Network/Routing/ReplyStatus">
+<gatewayOrder>
+	<orderType>Modify Package</orderType>
+	<orderPlacementDate>M_DateTime</orderPlacementDate>
+	<customerRequiredDate>M_Date</customerRequiredDate>
+	<branchId>M_Branchcode</branchId>
+	<activityId>13</activityId>
+	<brandId>M_BRANDID</brandId>
+	<exchangeCode>M_Exchangecode</exchangeCode>
+	<managedMigrationFlag>true</managedMigrationFlag>
+	<resources>
+	<resourceId>M_CLI</resourceId>
+	<type>CLI</type>
+	</resources>
+<externalReference>
+	<name>Migration Reference</name>
+	<value>MIG-ID_555_M_DateTime</value>
+</externalReference>
+
+<orderLines>
+	<orderLine>
+		<productId>M_T_PACKAGEID</productId>
+		<sgoProductType>PACKAGE</sgoProductType>
+		<attributes>
+			<name>qStream</name>
+			<value>3</value>
+		</attributes>
+	</orderLine>
+	<orderLine>
+	<productId>10090</productId>
+	<sgoProductType>PROPOSITION</sgoProductType>
+	<attributes>
+		<name>techMigrationPriceChange</name>
+		<value>cheaper</value>
+	</attributes>
+	</orderLine>
+	<orderLine>
+	<productId>12860</productId>
+	<sgoProductType>PROPOSITION</sgoProductType>
+	</orderLine>
+</orderLines>
+<account>
+	<accountId>M_accountId</accountId>
+</account>
+<customer>
+	<customerId>M_customerId</customerId>
+</customer>
+</gatewayOrder>
+</SubmitGatewayOrderRequest>

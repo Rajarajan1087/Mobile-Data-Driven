@@ -1,0 +1,74 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID</OrderID>
+	<StateID>M_STATEID</StateID>
+	<StateMachineTypeID>486</StateMachineTypeID>
+	<StateDateTime>M_DATE+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_COMMANDID</CommandID>
+	<CommandTypeID>180</CommandTypeID>
+	<Properties>
+		<Name>CLI</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>ResellerReference</Name>
+		<Value>M_cmdInstId</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>TargetCommandID</Name>
+		<Value>M_TARGETCOMMANDID</Value>
+	</Properties>
+	<Properties>
+		<Name>CustomerRequiredByDate</Name>
+		<Value>M_DATE1+01:00</Value>
+	</Properties>
+	<Properties>
+		<Name>AmendReason</Name>
+		<Value>ConfirmUnsolicitedAmend</Value>
+	</Properties>
+	<Properties>
+		<Name>AppointmentID</Name>
+		<Value>M_APPOINTMENTID</Value>
+	</Properties>
+	<Properties>
+		<Name>AppointmentNotes</Name>
+		<Value>notes</Value>
+	</Properties>
+	<Properties>
+		<Name>AppointmentSpecialArrangementNotes</Name>
+		<Value>special arrangement notes</Value>
+	</Properties>
+	<Properties>
+		<Name>CPWNReference</Name>
+		<Value>M_CPWNREF</Value>
+	</Properties>
+	<Properties>
+		<Name>NGAType</Name>
+		<Value />
+	</Properties>
+	<Properties>
+		<Name>NGAServiceID</Name>
+		<Value />
+	</Properties>
+	<Properties>
+		<Name>AmendAppointingType</Name>
+		<Value>AmendManagedInstallAppointmentDetails</Value>
+	</Properties>
+	<Properties>
+		<Name>PreviousStateID</Name>
+		<Value>2</Value>
+	</Properties>
+</Command>

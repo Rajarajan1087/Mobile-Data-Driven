@@ -1,0 +1,38 @@
+com.tibco.tibjms.naming.TibjmsInitialContextFactory
+tibjmsnaming://M_emm_hostname:M_emm_port
+TTG.GBR.M_env.Public.Request.Network.OSS.RouteAODStatusUpdates.1
+120000
+M_emm_username
+M_emm_password
+1.0
+EAI_OPS   
+<?xml version="1.0" encoding="UTF-8"?>
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderID>M_ORDERID_VM</OrderID>
+	<StateID>M_STATE</StateID>
+	<StateMachineTypeID>169</StateMachineTypeID>
+	<StateDateTime>M_DateTime+01:00</StateDateTime>
+	<StateUpdated>true</StateUpdated>
+	<CommandID>M_gwyCmdID_VM</CommandID>
+	<CommandTypeID>87</CommandTypeID>
+	<Properties>
+		<Name>Appointment</Name>
+		<Value>M_AppointmentDate</Value>
+	</Properties>
+	<Properties>
+		<Name>Origin</Name>
+		<Value>LLU</Value>
+	</Properties>
+	<Properties>
+		<Name>Postcode</Name>
+		<Value>NR5 0UB</Value>
+	</Properties>
+	<Properties>
+		<Name>TelephoneNumber</Name>
+		<Value>M_CLI</Value>
+	</Properties>
+	<Properties>
+		<Name>AgentID</Name>
+		<Value>M_serviceResellerId</Value>
+	</Properties>
+</Command>

@@ -1,0 +1,71 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetNGAAvailabilityResponse xmlns="http://webservices.opalonline.co.uk/NGAAvailabilityCheckerWS">
+      <GetNGAAvailabilityResult>
+        <Status>
+          <HasErrors>false</HasErrors>
+          <Errors />
+        </Status>
+        <ResponseDetails>
+          <NGAAvailabilityForTelephoneNumber>
+            <TelephoneNumber>replaceMe</TelephoneNumber>
+            <PostcodeMatch>
+              <Postcode>LA1 4JF</Postcode>
+              <PostcodeMatch>Yes</PostcodeMatch>
+            </PostcodeMatch>
+            <FTTCAvailability>
+              <FTTCAvailability>Yes</FTTCAvailability>
+              <MaxUpstreamBandwidth>20</MaxUpstreamBandwidth>
+              <MaxDownstreamBandwidth>80</MaxDownstreamBandwidth>
+              <MaxBandwidthMeasure>Predicted</MaxBandwidthMeasure>
+              <ExchangeDetails>
+                <CSSExchangeDistrictCode>LC</CSSExchangeDistrictCode>
+                <OHPExchangeCode>EM</OHPExchangeCode>
+                <OHPExchangeName>EMKINGS</OHPExchangeName>
+                <NGAState>Live</NGAState>
+                <NGACapacity>G</NGACapacity>
+                <L2SID>BAABYV</L2SID>
+                <ProductMessages>
+                  <ProductMessage>
+                    <ProductType>IPTV-Unicast</ProductType>
+                    <ProductValue>True</ProductValue>
+                  </ProductMessage>
+                  <ProductMessage>
+                    <ProductType>IPTV-Multicast</ProductType>
+                    <ProductValue>True</ProductValue>
+                  </ProductMessage>
+                </ProductMessages>
+              </ExchangeDetails>
+            </FTTCAvailability>
+            <ExistingServicesDetails>
+              <ServiceInfo>
+                <ServiceType>LLU</ServiceType>
+                <AccessLineID>LCAAAC9LPT</AccessLineID>
+                <AccessLineStatus>BTLive</AccessLineStatus>
+                <CurrentCP>BT WHOLESALE</CurrentCP>
+                <CurrentReseller />
+                <CurrentResellerAgentID xsi:nil="true" />
+              </ServiceInfo>
+            </ExistingServicesDetails>
+            <TechnologyMessages>
+              <TechnologyMessage>
+                <Code>LLUSMPF</Code>
+                <Message>LLU Installation</Message>
+              </TechnologyMessage>
+            </TechnologyMessages>
+            <ProductMessages>
+              <ProductMessage>
+                <ProductType>IPTV-Unicast</ProductType>
+                <ProductValue>True</ProductValue>
+              </ProductMessage>
+              <ProductMessage>
+                <ProductType>IPTV-Multicast</ProductType>
+                <ProductValue>True</ProductValue>
+              </ProductMessage>
+            </ProductMessages>
+          </NGAAvailabilityForTelephoneNumber>
+        </ResponseDetails>
+      </GetNGAAvailabilityResult>
+    </GetNGAAvailabilityResponse>
+  </soap:Body>
+</soap:Envelope>
